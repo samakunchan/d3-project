@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  frontend:
+    build:
+      context: .
+      target: cache
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+      - /app/node_modules
+    command: npm run start-docker
+    ports:
+      - '4210:4200'
+    environment:
+      # hot reload enabled
+      - CHOKIDAR_USEPOLLING=true

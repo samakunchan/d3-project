@@ -1,0 +1,12 @@
+<p style="text-align: center">Je mange avec Marie.</p>
+<div class="d-flex vw-100">
+  <div #chart class="graph"></div>
+  <div class="w-50">
+    <pre class="data">{{ 'TOTAL NODES (Les ronds): ' + data.nodes.length }}</pre>
+    <pre class="data">{{ data.nodes | json }}</pre>
+  </div>
+  <div class="w-50">
+    <pre class="data">{{ 'TOTAL LINKS (Les flèches): ' + data.links.length }}</pre>
+    <pre class="data">{{ data.links | json }}</pre>
+  </div>
+</div>

@@ -1,0 +1,43 @@
+{
+  "message": "OK",
+  "code": 0,
+  "startTime": 1645449135631,
+  "endTime": 1645449135631,
+  "result": {
+    "predicates": [
+      {
+        "id": 3,
+        "value": ["eat-39.1-1"],
+        "source": "manger",
+        "refSource": "0-1",
+        "negation": false,
+        "arguments": [
+          { "id": 0, "role": "Agent", "tags": [], "value": "je", "refValue": "0-0", "idP": 3 },
+          { "id": 14, "role": "Instrument", "tags": ["nerd:Person"], "value": "Marie", "refValue": "0-3", "idP": 3 }
+        ]
+      },
+      {
+        "id": 3797,
+        "value": ["type"],
+        "source": "Marie",
+        "refSource": "0-3",
+        "negation": false,
+        "arguments": [
+          { "id": 14, "role": "Experiencer", "tags": ["nerd:Person"], "value": "Marie", "refValue": "0-3", "idP": 3797 },
+          { "id": -7926, "role": "Attribute", "tags": [], "value": "feminine", "refValue": null, "idP": 3797 }
+        ]
+      },
+      {
+        "id": 3630,
+        "value": ["type"],
+        "source": "Marie",
+        "refSource": "0-3",
+        "negation": false,
+        "arguments": [
+          { "id": 14, "role": "Experiencer", "tags": ["nerd:Person"], "value": "Marie", "refValue": "0-3", "idP": 3630 },
+          { "id": -4173, "role": "Attribute", "tags": [], "value": "nerd:Person", "refValue": null, "idP": 3630 }
+        ]
+      }
+    ]
+  }
+}
