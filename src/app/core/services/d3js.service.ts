@@ -110,9 +110,10 @@ export class D3jsService {
       .attr('markerHeight', 6)
       .attr('orient', 'auto-start-reverse')
       .append('svg:path')
-      .attr('d', 'M0,-5L10,0L0,5')
-      .style('fill', ({ type }: any) => this.colorType(type));
+      .attr('d', 'M0,-5L10,0L0,5');
+    // .style('fill', ({ type }: any) => this.colorType(type));
 
+    // AFFICHE LES LIENS
     this.links = this.renderedD3SVG
       .append('g')
       .attr('class', 'links')
@@ -135,8 +136,16 @@ export class D3jsService {
           // is predicate
           return 'url(#' + typeT.toLowerCase() + '2)';
         }
-      });
+      })
+      .call(
+        d3
+          .drag()
+          .on('start', (event: any, d: any) => this.dragStarted(event, d))
+          .on('drag', (event: any, d: any) => this.dragged(event, d))
+          .on('end', (event: any, d: any) => this.dragEnded(event, d)),
+      );
 
+    // AFFICHE LE TEXT SUR LES LIENS
     this.linksText = this.renderedD3SVG
       .selectAll('.link')
       .data(this.graph.links)
@@ -180,7 +189,7 @@ export class D3jsService {
       .attr('y', 3)
       .on('mouseover', (event: any, d: any) => (d.type.includes('predicate') ? this.mouseOver() : null))
       .on('mouseout', (event: any, d: any) => (d.type.includes('predicate') ? this.mouseOut() : null));
-    //
+
     this.simulation
       .nodes(this.graph.nodes)
       .on('tick', () => this.ticked())
@@ -188,30 +197,6 @@ export class D3jsService {
       ?.links(this.graph.links);
 
     return this.renderedD3SVG;
-  }
-
-  loadSimulation() {
-    const forceStrength: number = 0.5 * this.graph.nodes.length - 90;
-    const strength: number = forceStrength > -5 ? -5 : forceStrength;
-    this.simulation = d3
-      .forceSimulation()
-      .force(
-        'link',
-        d3
-          .forceLink()
-          .id(({ id }: any) => id)
-          .distance(({ value }: any) => {
-            if (value === 10) {
-              return 100;
-            } else {
-              return 50;
-            }
-          }),
-      )
-      .force('charge', d3.forceManyBody().strength(strength))
-      .force('center', d3.forceCenter(this.width / 2, this.height / 2));
-
-    return this.simulation;
   }
 
   colorType(type: string, isAttribute = false): string {

@@ -1,0 +1,78 @@
+{
+  "message": "OK",
+  "code": 0,
+  "startTime": 1648647657895,
+  "endTime": 1648647657895,
+  "result": {
+    "predicates": [
+      {
+        "id": 100000000,
+        "value": ["coreference"],
+        "source": "Je",
+        "refSource": "0-0",
+        "negation": false,
+        "arguments": [
+          { "id": 0, "role": "SameAs", "tags": [], "value": "Je", "refValue": "0-0" },
+          { "id": 27, "role": "SameAs", "tags": [], "value": "Luc", "refValue": "0-5" }
+        ]
+      },
+      {
+        "id": 3,
+        "value": ["give-13.1", "transfer_mesg-37.1.1"],
+        "source": "transférer",
+        "refSource": "0-1",
+        "negation": false,
+        "arguments": [
+          { "id": 16, "role": "Theme", "tags": [], "value": "document", "refValue": "0-3" },
+          { "id": 27, "role": "Recipient", "tags": ["nerd:Person"], "value": "Luc", "refValue": "0-5" },
+          { "id": 0, "role": "Agent", "tags": [], "value": "Je", "refValue": "0-0" }
+        ]
+      },
+      {
+        "id": 10000000,
+        "value": ["cardinality"],
+        "source": "un",
+        "refSource": "0-2",
+        "negation": false,
+        "arguments": [
+          { "id": 16, "role": "Theme", "tags": [], "value": "document", "refValue": "0-3" },
+          { "id": 100000001, "role": "Measureexact", "tags": [], "value": "1", "refValue": "0-2" }
+        ]
+      },
+      {
+        "id": 100000002,
+        "value": ["type"],
+        "source": "document",
+        "refSource": "0-3",
+        "negation": false,
+        "arguments": [
+          { "id": 16, "role": "Experiencer", "tags": [], "value": "document", "refValue": "0-3" },
+          { "id": 100000003, "role": "Attribute", "tags": [], "value": "wsd:Thing>Abstract>Product>Archive", "refValue": "0-3" }
+        ]
+      },
+      {
+        "id": 100000004,
+        "value": ["type"],
+        "source": "Luc",
+        "refSource": "0-5",
+        "negation": false,
+        "arguments": [
+          { "id": 27, "role": "Experiencer", "tags": ["nerd:Person"], "value": "Luc", "refValue": "0-5" },
+          { "id": 100000005, "role": "Attribute", "tags": [], "value": "nerd:Person", "refValue": "0-5" }
+        ]
+      },
+      {
+        "id": 5,
+        "value": ["obtain-13.5.2"],
+        "source": "INFERRED",
+        "refSource": "0-1",
+        "negation": false,
+        "arguments": [
+          { "id": 0, "role": "Source", "tags": [], "value": "Je", "refValue": "0-0" },
+          { "id": 27, "role": "Agent", "tags": ["nerd:Person"], "value": "Luc", "refValue": "0-5" },
+          { "id": 16, "role": "Theme", "tags": [], "value": "document", "refValue": "0-3" }
+        ]
+      }
+    ]
+  }
+}

@@ -1,13 +1,9 @@
-export class Graph {
+export interface Graph {
   nodes: GraphNode[];
   links: GraphLink[];
-  constructor(nodes: GraphNode[], links: GraphLink[]) {
-    this.nodes = nodes;
-    this.links = links;
-  }
 }
 
-export class GraphNode {
+export interface GraphNode {
   id: number;
   idP?: string;
   type?: string;
@@ -15,34 +11,15 @@ export class GraphNode {
   frame?: string;
   text: string[];
   dashed: boolean;
-
-  constructor(id: number, idP: string, type: string, group: number, frame: string, text: string[], dashed: boolean) {
-    this.id = id;
-    this.idP = idP;
-    this.type = type;
-    this.group = group;
-    this.frame = frame;
-    this.text = text;
-    this.dashed = dashed;
-  }
 }
 
-export class GraphLink {
-  source: any;
-  target: any;
+export interface GraphLink {
+  source: number;
+  target: number;
   value: number;
   typeS: string;
   typeT: string;
   dashed: boolean;
-
-  constructor(source: any, target: any, value: number, typeS: string, typeT: string, dashed: boolean) {
-    this.source = source;
-    this.target = target;
-    this.value = value;
-    this.typeS = typeS;
-    this.typeT = typeT;
-    this.dashed = dashed;
-  }
 }
 
 export const types = [

@@ -1,0 +1,144 @@
+{
+  "message": "OK",
+  "code": 0,
+  "startTime": 1646384003540,
+  "endTime": 1646384003541,
+  "result": {
+    "predicates": [
+      {
+        "id": 3522,
+        "value": ["type"],
+        "source": "Luc",
+        "refSource": "0-0",
+        "negation": false,
+        "arguments": [
+          { "id": 0, "role": "Experiencer", "tags": ["nerd:Person"], "value": "Luc", "refValue": "0-0", "idP": 3522 },
+          { "id": -2150, "role": "Attribute", "tags": [], "value": "masculine", "refValue": "0-0", "idP": 3522 }
+        ]
+      },
+      {
+        "id": 3172,
+        "value": ["type"],
+        "source": "Luc",
+        "refSource": "0-0",
+        "negation": false,
+        "arguments": [
+          { "id": 0, "role": "Experiencer", "tags": ["nerd:Person"], "value": "Luc", "refValue": "0-0", "idP": 3172 },
+          { "id": -4710, "role": "Attribute", "tags": [], "value": "nerd:Person", "refValue": "0-0", "idP": 3172 }
+        ]
+      },
+      {
+        "id": 6,
+        "value": ["require-103", "order-60.1"],
+        "source": "demander",
+        "refSource": "0-2",
+        "negation": false,
+        "arguments": [
+          { "id": 9999, "role": "TimeMax", "tags": ["nerd:TimeMax"], "value": "23:59 05/03/2022", "refValue": "0-2", "idP": 6 },
+          { "id": 18, "role": "Theme", "tags": [], "value": "facture", "refValue": "0-4", "idP": 6 },
+          { "id": 29, "role": "Recipient", "tags": ["nerd:Person"], "value": "Marie", "refValue": "0-6", "idP": 6 },
+          { "id": 0, "role": "Agent", "tags": ["nerd:Person"], "value": "Luc", "refValue": "0-0", "idP": 6 },
+          { "id": 9998, "role": "TimeMin", "tags": ["nerd:TimeMin"], "value": "00:00 05/03/2022", "refValue": "0-2", "idP": 6 }
+        ]
+      },
+      {
+        "id": 14,
+        "value": ["cardinality"],
+        "source": "le",
+        "refSource": "0-3",
+        "negation": false,
+        "arguments": [
+          { "id": 18, "role": "Theme", "tags": [], "value": "facture", "refValue": "0-4", "idP": 14 },
+          { "id": 0, "role": "Measuremin", "tags": [], "value": "2", "refValue": "0-3", "idP": 14 }
+        ]
+      },
+      {
+        "id": 3088,
+        "value": ["type"],
+        "source": "facture",
+        "refSource": "0-4",
+        "negation": false,
+        "arguments": [
+          { "id": 18, "role": "Experiencer", "tags": [], "value": "facture", "refValue": "0-4", "idP": 3088 },
+          {
+            "id": -5361,
+            "role": "Attribute",
+            "tags": [],
+            "value": "wsd:Thing>Concrete>Inanimate>Product>Archive",
+            "refValue": "0-4",
+            "idP": 3088
+          }
+        ]
+      },
+      {
+        "id": 3766,
+        "value": ["type"],
+        "source": "facture",
+        "refSource": "0-4",
+        "negation": false,
+        "arguments": [
+          { "id": 18, "role": "Experiencer", "tags": [], "value": "facture", "refValue": "0-4", "idP": 3766 },
+          { "id": -7545, "role": "Attribute", "tags": [], "value": "feminine", "refValue": "0-4", "idP": 3766 }
+        ]
+      },
+      {
+        "id": 3729,
+        "value": ["type"],
+        "source": "Marie",
+        "refSource": "0-6",
+        "negation": false,
+        "arguments": [
+          { "id": 29, "role": "Experiencer", "tags": ["nerd:Person"], "value": "Marie", "refValue": "0-6", "idP": 3729 },
+          { "id": -6958, "role": "Attribute", "tags": [], "value": "feminine", "refValue": "0-6", "idP": 3729 }
+        ]
+      },
+      {
+        "id": 3531,
+        "value": ["type"],
+        "source": "Marie",
+        "refSource": "0-6",
+        "negation": false,
+        "arguments": [
+          { "id": 29, "role": "Experiencer", "tags": ["nerd:Person"], "value": "Marie", "refValue": "0-6", "idP": 3531 },
+          { "id": -8638, "role": "Attribute", "tags": [], "value": "nerd:Person", "refValue": "0-6", "idP": 3531 }
+        ]
+      },
+      {
+        "id": 3921,
+        "value": ["type"],
+        "source": "2022-03-05T00:00:00.551705805",
+        "refSource": null,
+        "negation": false,
+        "arguments": [
+          {
+            "id": 9998,
+            "role": "Experiencer",
+            "tags": ["nerd:TimeMin"],
+            "value": "2022-03-05T00:00:00.551705805",
+            "refValue": null,
+            "idP": 3921
+          },
+          { "id": -680, "role": "Attribute", "tags": [], "value": "nerd:TimeMin", "refValue": null, "idP": 3921 }
+        ]
+      },
+      {
+        "id": 3827,
+        "value": ["type"],
+        "source": "2022-03-05T23:59:22.551705805",
+        "refSource": null,
+        "negation": false,
+        "arguments": [
+          {
+            "id": 9999,
+            "role": "Experiencer",
+            "tags": ["nerd:TimeMax"],
+            "value": "2022-03-05T23:59:22.551705805",
+            "refValue": null,
+            "idP": 3827
+          },
+          { "id": -675, "role": "Attribute", "tags": [], "value": "nerd:TimeMax", "refValue": null, "idP": 3827 }
+        ]
+      }
+    ]
+  }
+}

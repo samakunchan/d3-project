@@ -1,0 +1,76 @@
+{
+  "message": "OK",
+  "code": 0,
+  "startTime": 1647357257267,
+  "endTime": 1647357257267,
+  "result": {
+    "predicates": [
+      {
+        "id": 100000000,
+        "value": ["type"],
+        "source": "Luc",
+        "refSource": "0-0",
+        "negation": false,
+        "arguments": [
+          { "id": 0, "role": "Experiencer", "tags": ["nerd:Person"], "value": "Luc", "refValue": "0-0" },
+          { "id": 100000001, "role": "Attribute", "tags": [], "value": "nerd:Person", "refValue": "0-0" }
+        ]
+      },
+      {
+        "id": 100000002,
+        "value": ["subClassOf"],
+        "source": "être",
+        "refSource": "0-1",
+        "negation": false,
+        "arguments": [
+          { "id": 0, "role": "Experiencer", "tags": ["nerd:Person"], "value": "Luc", "refValue": "0-0" },
+          { "id": 100000003, "role": "Attribute", "tags": [], "value": "garçon", "refValue": "0-4" }
+        ]
+      },
+      {
+        "id": 100000004,
+        "value": ["cardinality"],
+        "source": "un",
+        "refSource": "0-2",
+        "negation": false,
+        "arguments": [
+          { "id": 15, "role": "Theme", "tags": [], "value": "garçon", "refValue": "0-4" },
+          { "id": 100000005, "role": "Measureexact", "tags": [], "value": "1", "refValue": "0-2" }
+        ]
+      },
+      {
+        "id": 100000006,
+        "value": ["type"],
+        "source": "bon",
+        "refSource": "0-3",
+        "negation": false,
+        "arguments": [
+          { "id": 11, "role": "Experiencer", "tags": [], "value": "bon", "refValue": "0-3" },
+          { "id": 100000007, "role": "Attribute", "tags": [], "value": "masculine", "refValue": "0-3" }
+        ]
+      },
+      {
+        "id": 100000008,
+        "value": ["type"],
+        "source": "garçon",
+        "refSource": "0-4",
+        "negation": false,
+        "arguments": [
+          { "id": 15, "role": "Experiencer", "tags": [], "value": "garçon", "refValue": "0-4" },
+          { "id": 100000009, "role": "Attribute", "tags": [], "value": "wsd:Thing>Concrete>Animate>Livingbeing>Human", "refValue": "0-4" }
+        ]
+      },
+      {
+        "id": 100000010,
+        "value": ["type"],
+        "source": "garçon",
+        "refSource": "0-4",
+        "negation": false,
+        "arguments": [
+          { "id": 15, "role": "Experiencer", "tags": [], "value": "garçon", "refValue": "0-4" },
+          { "id": 100000011, "role": "Attribute", "tags": [], "value": "masculine", "refValue": "0-4" }
+        ]
+      }
+    ]
+  }
+}

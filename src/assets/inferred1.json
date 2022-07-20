@@ -1,0 +1,78 @@
+{
+  "message": "OK",
+  "code": 0,
+  "startTime": 1648199218197,
+  "endTime": 1648199218198,
+  "result": {
+    "predicates": [
+      {
+        "id": 100000000,
+        "value": ["type"],
+        "source": "Luc",
+        "refSource": "0-0",
+        "negation": false,
+        "arguments": [
+          { "id": 0, "role": "Experiencer", "tags": ["nerd:Person"], "value": "Luc", "refValue": "0-0" },
+          { "id": 100000001, "role": "Attribute", "tags": [], "value": "nerd:Person", "refValue": "0-0" }
+        ]
+      },
+      {
+        "id": 4,
+        "value": ["give-13.1"],
+        "source": "envoyer",
+        "refSource": "0-1",
+        "negation": false,
+        "arguments": [
+          { "id": 14, "role": "Theme", "tags": [], "value": "message", "refValue": "0-3" },
+          { "id": 24, "role": "Recipient", "tags": ["nerd:Person"], "value": "Marie", "refValue": "0-5" },
+          { "id": 0, "role": "Agent", "tags": ["nerd:Person"], "value": "Luc", "refValue": "0-0" }
+        ]
+      },
+      {
+        "id": 100000002,
+        "value": ["cardinality"],
+        "source": "un",
+        "refSource": "0-2",
+        "negation": false,
+        "arguments": [
+          { "id": 14, "role": "Theme", "tags": [], "value": "message", "refValue": "0-3" },
+          { "id": 100000003, "role": "Measureexact", "tags": [], "value": "1", "refValue": "0-2" }
+        ]
+      },
+      {
+        "id": 100000004,
+        "value": ["type"],
+        "source": "message",
+        "refSource": "0-3",
+        "negation": false,
+        "arguments": [
+          { "id": 14, "role": "Experiencer", "tags": [], "value": "message", "refValue": "0-3" },
+          { "id": 100000005, "role": "Attribute", "tags": [], "value": "wsd:Thing>Abstract>Product>Archive", "refValue": "0-3" }
+        ]
+      },
+      {
+        "id": 100000006,
+        "value": ["type"],
+        "source": "Marie",
+        "refSource": "0-5",
+        "negation": false,
+        "arguments": [
+          { "id": 24, "role": "Experiencer", "tags": ["nerd:Person"], "value": "Marie", "refValue": "0-5" },
+          { "id": 100000007, "role": "Attribute", "tags": [], "value": "nerd:Person", "refValue": "0-5" }
+        ]
+      },
+      {
+        "id": 999,
+        "value": ["obtain-13.5.2"],
+        "source": "INFERRED",
+        "refSource": "0-1",
+        "negation": false,
+        "arguments": [
+          { "id": 0, "role": "Source", "tags": ["nerd:Person"], "value": "Luc", "refValue": "0-0" },
+          { "id": 24, "role": "Agent", "tags": ["nerd:Person"], "value": "Marie", "refValue": "0-5" },
+          { "id": 14, "role": "Theme", "tags": [], "value": "message", "refValue": "0-3" }
+        ]
+      }
+    ]
+  }
+}

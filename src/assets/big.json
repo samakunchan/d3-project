@@ -1,0 +1,144 @@
+{
+  "message": "OK",
+  "code": 0,
+  "startTime": 1648638127250,
+  "endTime": 1648638127251,
+  "result": {
+    "predicates": [
+      {
+        "id": 0,
+        "value": ["conjecture-29.5-1"],
+        "source": "prévoir",
+        "refSource": "0-0",
+        "negation": false,
+        "arguments": [
+          { "id": 100000000, "role": "TimeMax", "tags": ["nerd:TimeMax"], "value": "2022-04-10T23:59:03.682032265", "refValue": "0-0" },
+          { "id": 12, "role": "Theme", "tags": [], "value": "vacances", "refValue": "0-2" },
+          { "id": 47, "role": "Attribute", "tags": [], "value": "rappeler", "refValue": "0-7" },
+          { "id": 76, "role": "Addition", "tags": [], "value": "dire", "refValue": "0-12" },
+          { "id": 100000001, "role": "TimeMin", "tags": ["nerd:TimeMin"], "value": "2022-04-04T00:00:00.682032265", "refValue": "0-0" }
+        ]
+      },
+      {
+        "id": 100000002,
+        "value": ["cardinality"],
+        "source": "mes",
+        "refSource": "0-1",
+        "negation": false,
+        "arguments": [
+          { "id": 12, "role": "Theme", "tags": [], "value": "vacances", "refValue": "0-2" },
+          { "id": 100000003, "role": "Measuremin", "tags": [], "value": "2", "refValue": "0-1" }
+        ]
+      },
+      {
+        "id": 100000004,
+        "value": ["type"],
+        "source": "vacance",
+        "refSource": "0-2",
+        "negation": false,
+        "arguments": [
+          { "id": 12, "role": "Experiencer", "tags": [], "value": "vacances", "refValue": "0-2" },
+          { "id": 100000005, "role": "Attribute", "tags": [], "value": "wsd:Thing>Abstract", "refValue": "0-2" }
+        ]
+      },
+      {
+        "id": 47,
+        "value": ["transfer_mesg-37.1.1"],
+        "source": "rappeler",
+        "refSource": "0-7",
+        "negation": false,
+        "arguments": [{ "id": 65, "role": "Topic", "tags": [], "value": "clients", "refValue": "0-10" }]
+      },
+      {
+        "id": 100000006,
+        "value": ["cardinality"],
+        "source": "mes",
+        "refSource": "0-9",
+        "negation": false,
+        "arguments": [
+          { "id": 65, "role": "Theme", "tags": [], "value": "clients", "refValue": "0-10" },
+          { "id": 100000007, "role": "Measuremin", "tags": [], "value": "2", "refValue": "0-9" }
+        ]
+      },
+      {
+        "id": 100000008,
+        "value": ["type"],
+        "source": "client",
+        "refSource": "0-10",
+        "negation": false,
+        "arguments": [
+          { "id": 65, "role": "Experiencer", "tags": [], "value": "clients", "refValue": "0-10" },
+          { "id": 100000009, "role": "Attribute", "tags": [], "value": "wsd:Thing", "refValue": "0-10" }
+        ]
+      },
+      {
+        "id": 76,
+        "value": ["transfer_mesg-37.1.1"],
+        "source": "dire",
+        "refSource": "0-12",
+        "negation": false,
+        "arguments": [
+          { "id": 0, "role": "Addition", "tags": [], "value": "Prévoir", "refValue": "0-0" },
+          { "id": 83, "role": "Recipient", "tags": ["nerd:Person"], "value": "Jean", "refValue": "0-14" }
+        ]
+      },
+      {
+        "id": 100000010,
+        "value": ["type"],
+        "source": "Jean",
+        "refSource": "0-14",
+        "negation": false,
+        "arguments": [
+          { "id": 83, "role": "Experiencer", "tags": ["nerd:Person"], "value": "Jean", "refValue": "0-14" },
+          { "id": 100000011, "role": "Attribute", "tags": [], "value": "nerd:Person", "refValue": "0-14" }
+        ]
+      },
+      {
+        "id": 90,
+        "value": ["give-13.1"],
+        "source": "envoyer",
+        "refSource": "0-16",
+        "negation": false,
+        "arguments": [
+          { "id": 100000012, "role": "TimeMax", "tags": ["nerd:TimeMax"], "value": "2022-03-31T23:59:03.682032265", "refValue": "0-16" },
+          { "id": 101, "role": "Theme", "tags": [], "value": "document", "refValue": "0-18" },
+          { "id": 100000013, "role": "TimeMin", "tags": ["nerd:TimeMin"], "value": "2022-03-31T00:00:00.682032265", "refValue": "0-16" },
+          { "id": 112, "role": "Recipient", "tags": ["nerd:Person"], "value": "Marie", "refValue": "0-20" }
+        ]
+      },
+      {
+        "id": 100000014,
+        "value": ["cardinality"],
+        "source": "le",
+        "refSource": "0-17",
+        "negation": false,
+        "arguments": [
+          { "id": 100000015, "role": "Measureexact", "tags": [], "value": "1", "refValue": "0-17" },
+          { "id": 101, "role": "Theme", "tags": [], "value": "document", "refValue": "0-18" }
+        ]
+      },
+      {
+        "id": 100000016,
+        "value": ["type"],
+        "source": "document",
+        "refSource": "0-18",
+        "negation": false,
+        "arguments": [
+          { "id": 101, "role": "Experiencer", "tags": [], "value": "document", "refValue": "0-18" },
+          { "id": 100000017, "role": "Attribute", "tags": [], "value": "wsd:Thing>Abstract>Product>Archive", "refValue": "0-18" }
+        ]
+      },
+      {
+        "id": 100000018,
+        "value": ["type"],
+        "source": "Marie",
+        "refSource": "0-20",
+        "negation": false,
+        "arguments": [
+          { "id": 112, "role": "Experiencer", "tags": ["nerd:Person"], "value": "Marie", "refValue": "0-20" },
+          { "id": 100000019, "role": "Attribute", "tags": [], "value": "nerd:Person", "refValue": "0-20" }
+        ]
+      }
+    ]
+  }
+}

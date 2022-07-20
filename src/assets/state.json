@@ -1,0 +1,32 @@
+{
+  "message": "OK",
+  "code": 0,
+  "startTime": 1647357122898,
+  "endTime": 1647357122899,
+  "result": {
+    "predicates": [
+      {
+        "id": 100000000,
+        "value": ["type"],
+        "source": "Luc",
+        "refSource": "0-0",
+        "negation": false,
+        "arguments": [
+          { "id": 0, "role": "Experiencer", "tags": ["nerd:Person"], "value": "Luc", "refValue": "0-0" },
+          { "id": 100000001, "role": "Attribute", "tags": [], "value": "nerd:Person", "refValue": "0-0" }
+        ]
+      },
+      {
+        "id": 100000002,
+        "value": ["state"],
+        "source": "se montrer",
+        "refSource": "0-1",
+        "negation": false,
+        "arguments": [
+          { "id": 0, "role": "Experiencer", "tags": ["nerd:Person"], "value": "Luc", "refValue": "0-0" },
+          { "id": 100000003, "role": "Attribute", "tags": [], "value": "pénible", "refValue": "0-2" }
+        ]
+      }
+    ]
+  }
+}
