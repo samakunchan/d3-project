@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-import * as dataJson from '../../../assets/document.json';
 import { PssArgument } from '../models/argument.model';
 import { PssPredicate } from '../models/predicate.model';
 import { Graph, GraphLink, GraphNode } from '../models/graph.model';
@@ -8,15 +7,21 @@ import { Graph, GraphLink, GraphNode } from '../models/graph.model';
   providedIn: 'root',
 })
 export class MeaningRepresentationService {
-  datas: any = dataJson as any;
-  predicates: PssPredicate[];
+  datas: any;
+  predicates: PssPredicate[] = [] as PssPredicate[];
   nodes: GraphNode[] = [] as GraphNode[];
   links: GraphLink[] = [] as GraphLink[];
   arg: PssArgument[] = [] as PssArgument[];
   data: Graph = {} as Graph;
 
-  constructor() {
-    this.predicates = this.datas.result.predicates;
+  constructor() {}
+
+  loadPredicates(datas: any): any {
+    return (this.datas = datas.result.predicates);
+  }
+
+  exe() {
+    this.predicates = this.datas;
     console.log('Total predicates: ' + this.predicates.length);
 
     this.predicates.forEach((predicate: PssPredicate) =>
@@ -115,4 +120,5 @@ export class MeaningRepresentationService {
     console.log('LINKS');
     console.table(this.data.links);
   }
+
 }

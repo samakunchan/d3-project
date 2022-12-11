@@ -3,6 +3,11 @@ export interface Graph {
   links: GraphLink[];
 }
 
+export interface GraphRdf {
+  nodes: GraphNodeRdf[];
+  links: GraphLinkRdf[];
+}
+
 export interface GraphNode {
   id: number;
   idP?: string;
@@ -13,6 +18,11 @@ export interface GraphNode {
   dashed: boolean;
 }
 
+export interface GraphNodeRdf {
+  uri: string;
+  value: string;
+  dashed: boolean;
+}
 export interface GraphLink {
   source: number;
   target: number;
@@ -22,6 +32,11 @@ export interface GraphLink {
   dashed: boolean;
 }
 
+export interface GraphLinkRdf{
+  source: string;
+  target: string;
+  typeT: string;
+}
 export const types = [
   { type: 'agent' },
   { type: 'coagent' },

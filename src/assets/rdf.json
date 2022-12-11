@@ -1,0 +1,517 @@
+{
+  "message": null,
+  "code": 0,
+  "language": "fr",
+  "startTime": 1670496575169,
+  "endTime": 1670496576892,
+  "result": {
+    "triples": [
+      {
+        "subject": {
+          "id": 0,
+          "uri": "http://www.emvista.com/ontology/0",
+          "value": "masculine"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": -1,
+          "uri": "masculine",
+          "value": "masculine"
+        }
+      },
+      {
+        "subject": {
+          "id": 0,
+          "uri": "http://www.emvista.com/kb/0",
+          "value": "Luc"
+        },
+        "predicate": {
+          "id": 100000289,
+          "uri": "http://www.emvista.com/ontology/has_type",
+          "value": "type"
+        },
+        "object": {
+          "id": 0,
+          "uri": "http://www.emvista.com/ontology/0",
+          "value": "masculine"
+        }
+      },
+      {
+        "subject": {
+          "id": 0,
+          "uri": "http://www.emvista.com/kb/0",
+          "value": "Luc"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": 0,
+          "uri": "Luc",
+          "value": "Luc"
+        }
+      },
+      {
+        "subject": {
+          "id": 0,
+          "uri": "http://www.emvista.com/ontology/0",
+          "value": "Thing/Concrete/Animate/Livingbeing/Human"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": -1,
+          "uri": "Thing/Concrete/Animate/Livingbeing/Human",
+          "value": "Thing/Concrete/Animate/Livingbeing/Human"
+        }
+      },
+      {
+        "subject": {
+          "id": 0,
+          "uri": "http://www.emvista.com/kb/0",
+          "value": "Luc"
+        },
+        "predicate": {
+          "id": 100000290,
+          "uri": "http://www.emvista.com/ontology/has_type",
+          "value": "type"
+        },
+        "object": {
+          "id": 0,
+          "uri": "http://www.emvista.com/ontology/0",
+          "value": "Thing/Concrete/Animate/Livingbeing/Human"
+        }
+      },
+      {
+        "subject": {
+          "id": 0,
+          "uri": "http://www.emvista.com/kb/0",
+          "value": "Luc"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": 0,
+          "uri": "Luc",
+          "value": "Luc"
+        }
+      },
+      {
+        "subject": {
+          "id": 66285465,
+          "uri": "http://www.emvista.com/kb/66285465",
+          "value": "order-60.1"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+          "value": null
+        },
+        "object": {
+          "id": -1,
+          "uri": "http://www.emvista.com/ontology/Event",
+          "value": "Event"
+        }
+      },
+      {
+        "subject": {
+          "id": 66285465,
+          "uri": "http://www.emvista.com/kb/66285465",
+          "value": "order-60.1"
+        },
+        "predicate": {
+          "id": 0,
+          "uri": "http://www.emvista.com/ontology/has_TimeMax",
+          "value": "TimeMax"
+        },
+        "object": {
+          "id": 0,
+          "uri": "2022-12-09T23:59:35.309588297",
+          "value": "2022-12-09T23:59:35.309588297"
+        }
+      },
+      {
+        "subject": {
+          "id": 66285465,
+          "uri": "http://www.emvista.com/kb/66285465",
+          "value": "order-60.1"
+        },
+        "predicate": {
+          "id": 0,
+          "uri": "http://www.emvista.com/ontology/has_TimeMin",
+          "value": "TimeMin"
+        },
+        "object": {
+          "id": 0,
+          "uri": "2022-12-09T00:00:00.309588297",
+          "value": "2022-12-09T00:00:00.309588297"
+        }
+      },
+      {
+        "subject": {
+          "id": 0,
+          "uri": "http://www.emvista.com/kb/factures",
+          "value": "factures"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": -1,
+          "uri": "factures",
+          "value": "factures"
+        }
+      },
+      {
+        "subject": {
+          "id": 66285465,
+          "uri": "http://www.emvista.com/kb/66285465",
+          "value": "order-60.1"
+        },
+        "predicate": {
+          "id": 0,
+          "uri": "http://www.emvista.com/ontology/has_Theme",
+          "value": "Theme"
+        },
+        "object": {
+          "id": 0,
+          "uri": "http://www.emvista.com/kb/factures",
+          "value": "factures"
+        }
+      },
+      {
+        "subject": {
+          "id": 0,
+          "uri": "http://www.emvista.com/kb/Luc",
+          "value": "Luc"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": -1,
+          "uri": "Luc",
+          "value": "Luc"
+        }
+      },
+      {
+        "subject": {
+          "id": 66285465,
+          "uri": "http://www.emvista.com/kb/66285465",
+          "value": "order-60.1"
+        },
+        "predicate": {
+          "id": 0,
+          "uri": "http://www.emvista.com/ontology/has_Agent",
+          "value": "Agent"
+        },
+        "object": {
+          "id": 0,
+          "uri": "http://www.emvista.com/kb/Luc",
+          "value": "Luc"
+        }
+      },
+      {
+        "subject": {
+          "id": 0,
+          "uri": "http://www.emvista.com/kb/Marie",
+          "value": "Marie"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": -1,
+          "uri": "Marie",
+          "value": "Marie"
+        }
+      },
+      {
+        "subject": {
+          "id": 66285465,
+          "uri": "http://www.emvista.com/kb/66285465",
+          "value": "order-60.1"
+        },
+        "predicate": {
+          "id": 0,
+          "uri": "http://www.emvista.com/ontology/has_Recipient",
+          "value": "Recipient"
+        },
+        "object": {
+          "id": 0,
+          "uri": "http://www.emvista.com/kb/Marie",
+          "value": "Marie"
+        }
+      },
+      {
+        "subject": {
+          "id": 0,
+          "uri": "http://www.emvista.com/kb/0",
+          "value": "factures"
+        },
+        "predicate": {
+          "id": 100000291,
+          "uri": "http://www.emvista.com/ontology/has_cardinality",
+          "value": "cardinality"
+        },
+        "object": null
+      },
+      {
+        "subject": {
+          "id": 0,
+          "uri": "http://www.emvista.com/kb/0",
+          "value": "factures"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": 0,
+          "uri": "factures",
+          "value": "factures"
+        }
+      },
+      {
+        "subject": {
+          "id": 0,
+          "uri": "http://www.emvista.com/ontology/0",
+          "value": "Thing/Concrete/Inanimate/Product/Archive"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": -1,
+          "uri": "Thing/Concrete/Inanimate/Product/Archive",
+          "value": "Thing/Concrete/Inanimate/Product/Archive"
+        }
+      },
+      {
+        "subject": {
+          "id": 0,
+          "uri": "http://www.emvista.com/kb/0",
+          "value": "factures"
+        },
+        "predicate": {
+          "id": 100000292,
+          "uri": "http://www.emvista.com/ontology/has_type",
+          "value": "type"
+        },
+        "object": {
+          "id": 0,
+          "uri": "http://www.emvista.com/ontology/0",
+          "value": "Thing/Concrete/Inanimate/Product/Archive"
+        }
+      },
+      {
+        "subject": {
+          "id": 0,
+          "uri": "http://www.emvista.com/kb/0",
+          "value": "factures"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": 0,
+          "uri": "factures",
+          "value": "factures"
+        }
+      },
+      {
+        "subject": {
+          "id": 0,
+          "uri": "http://www.emvista.com/ontology/0",
+          "value": "feminine"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": -1,
+          "uri": "feminine",
+          "value": "feminine"
+        }
+      },
+      {
+        "subject": {
+          "id": 0,
+          "uri": "http://www.emvista.com/kb/0",
+          "value": "Marie"
+        },
+        "predicate": {
+          "id": 100000293,
+          "uri": "http://www.emvista.com/ontology/has_type",
+          "value": "type"
+        },
+        "object": {
+          "id": 0,
+          "uri": "http://www.emvista.com/ontology/0",
+          "value": "feminine"
+        }
+      },
+      {
+        "subject": {
+          "id": 0,
+          "uri": "http://www.emvista.com/kb/0",
+          "value": "Marie"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": 0,
+          "uri": "Marie",
+          "value": "Marie"
+        }
+      },
+      {
+        "subject": {
+          "id": 0,
+          "uri": "http://www.emvista.com/ontology/0",
+          "value": "Thing/Concrete/Animate/Livingbeing/Human"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": -1,
+          "uri": "Thing/Concrete/Animate/Livingbeing/Human",
+          "value": "Thing/Concrete/Animate/Livingbeing/Human"
+        }
+      },
+      {
+        "subject": {
+          "id": 0,
+          "uri": "http://www.emvista.com/kb/0",
+          "value": "Marie"
+        },
+        "predicate": {
+          "id": 100000294,
+          "uri": "http://www.emvista.com/ontology/has_type",
+          "value": "type"
+        },
+        "object": {
+          "id": 0,
+          "uri": "http://www.emvista.com/ontology/0",
+          "value": "Thing/Concrete/Animate/Livingbeing/Human"
+        }
+      },
+      {
+        "subject": {
+          "id": 0,
+          "uri": "http://www.emvista.com/kb/0",
+          "value": "Marie"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": 0,
+          "uri": "Marie",
+          "value": "Marie"
+        }
+      },
+      {
+        "subject": {
+          "id": 0,
+          "uri": "http://www.emvista.com/kb/0",
+          "value": "demandé"
+        },
+        "predicate": {
+          "id": 100000295,
+          "uri": "http://www.emvista.com/ontology/has_polarity",
+          "value": "polarity"
+        },
+        "object": {
+          "id": 0,
+          "uri": "Pos",
+          "value": "Pos"
+        }
+      },
+      {
+        "subject": {
+          "id": 0,
+          "uri": "http://www.emvista.com/kb/0",
+          "value": "demandé"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": 0,
+          "uri": "demandé",
+          "value": "demandé"
+        }
+      },
+      {
+        "subject": {
+          "id": 0,
+          "uri": "http://www.emvista.com/kb/0",
+          "value": "demandé"
+        },
+        "predicate": {
+          "id": 100000296,
+          "uri": "http://www.emvista.com/ontology/has_aspect",
+          "value": "aspect"
+        },
+        "object": {
+          "id": 0,
+          "uri": "performance",
+          "value": "performance"
+        }
+      },
+      {
+        "subject": {
+          "id": 0,
+          "uri": "http://www.emvista.com/kb/0",
+          "value": "demandé"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": 0,
+          "uri": "demandé",
+          "value": "demandé"
+        }
+      }
+    ]
+  }
+}

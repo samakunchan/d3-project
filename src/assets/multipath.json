@@ -1,0 +1,120 @@
+{
+  "result": {
+    "predicates": [
+      {
+        "negation": false,
+        "inferred": false,
+        "arguments": [
+          { "role": "Experiencer", "id": 0, "value": "Luc", "refValue": "0-0", "tags": ["nerd:Person"] },
+          { "role": "Attribute", "id": 100000001, "value": "masculine", "refValue": "0-0", "tags": [] }
+        ],
+        "id": 100000000,
+        "source": "Luc",
+        "value": ["type"],
+        "refSource": "0-0"
+      },
+      {
+        "negation": false,
+        "inferred": false,
+        "arguments": [
+          { "role": "Experiencer", "id": 0, "value": "Luc", "refValue": "0-0", "tags": ["nerd:Person"] },
+          { "role": "Attribute", "id": 100000003, "value": "nerd:Person", "refValue": "0-0", "tags": [] }
+        ],
+        "id": 100000002,
+        "source": "Luc",
+        "value": ["type"],
+        "refSource": "0-0"
+      },
+      {
+        "negation": false,
+        "inferred": false,
+        "arguments": [
+          { "role": "Consequence", "id": 46, "value": "dormir", "refValue": "0-9", "tags": [] },
+          { "role": "Agent", "id": 0, "value": "Luc", "refValue": "0-0", "tags": ["nerd:Person"] },
+          { "role": "TimeExact", "id": 100000004, "value": "2022-07-21T06:42:25.235041954", "refValue": "0-2", "tags": [] }
+        ],
+        "id": 9,
+        "source": "chanter",
+        "value": ["sing"],
+        "refSource": "0-2"
+      },
+      {
+        "negation": false,
+        "inferred": false,
+        "arguments": [
+          { "role": "Experiencer", "id": 23, "value": "Gertrude", "refValue": "0-5", "tags": ["nerd:Person"] },
+          { "role": "Attribute", "id": 100000006, "value": "feminine", "refValue": "0-5", "tags": [] }
+        ],
+        "id": 100000005,
+        "source": "Gertrude",
+        "value": ["type"],
+        "refSource": "0-5"
+      },
+      {
+        "negation": false,
+        "inferred": false,
+        "arguments": [
+          { "role": "Experiencer", "id": 23, "value": "Gertrude", "refValue": "0-5", "tags": ["nerd:Person"] },
+          { "role": "Attribute", "id": 100000008, "value": "nerd:Person", "refValue": "0-5", "tags": [] }
+        ],
+        "id": 100000007,
+        "source": "Gertrude",
+        "value": ["type"],
+        "refSource": "0-5"
+      },
+      {
+        "negation": true,
+        "inferred": false,
+        "arguments": [
+          { "role": "Agent", "id": 23, "value": "Gertrude", "refValue": "0-5", "tags": ["nerd:Person"] },
+          { "role": "TimeMin", "id": 9, "value": "chanter", "refValue": "0-2", "tags": [] },
+          { "role": "Cause", "id": 9, "value": "chanter", "refValue": "0-2", "tags": [] }
+        ],
+        "id": 46,
+        "source": "dormir",
+        "value": ["snooze-40.4"],
+        "refSource": "0-9"
+      },
+      {
+        "negation": false,
+        "inferred": false,
+        "arguments": [
+          { "role": "Experiencer", "id": 9, "value": "chanter", "refValue": "0-2", "tags": [] },
+          { "role": "Attribute", "id": 100000010, "value": "Pos", "refValue": "0-2", "tags": [] }
+        ],
+        "id": 100000009,
+        "source": "chanter",
+        "value": ["polarity"],
+        "refSource": "0-2"
+      },
+      {
+        "negation": false,
+        "inferred": false,
+        "arguments": [
+          { "role": "Experiencer", "id": 46, "value": "dormir", "refValue": "0-9", "tags": [] },
+          { "role": "Attribute", "id": 100000012, "value": "Neg", "refValue": "0-9", "tags": [] }
+        ],
+        "id": 100000011,
+        "source": "dormir",
+        "value": ["polarity"],
+        "refSource": "0-9"
+      },
+      {
+        "negation": false,
+        "inferred": false,
+        "arguments": [
+          { "role": "Experiencer", "id": 46, "value": "dormir", "refValue": "0-9", "tags": [] },
+          { "role": "Attribute", "id": 100000014, "value": "capacity", "refValue": "0-9", "tags": [] }
+        ],
+        "id": 100000013,
+        "source": "dormir",
+        "value": ["modality"],
+        "refSource": "0-9"
+      }
+    ]
+  },
+  "code": 0,
+  "startTime": 1658385746414,
+  "endTime": 1658385746415,
+  "message": "OK"
+}
