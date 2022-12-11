@@ -24,10 +24,37 @@ export class MeaningRepresentationService {
     this.predicates = this.datas;
     console.log('Total predicates: ' + this.predicates.length);
 
-    this.predicates.forEach((predicate: PssPredicate) =>
-      predicate.arguments.forEach((argument: PssArgument) =>
+    this.predicates.forEach((predicate: PssPredicate) => {
+      if(predicate.arguments.length > 0) {
+        predicate.arguments.forEach((argument: PssArgument) => {
+          this.arg.push({
+            ...argument,
+            predicate: {
+              id: predicate.id,
+              type: 'predicate',
+              frame: predicate.source,
+              text: predicate.value,
+              dashed: false,
+            },
+          } as PssArgument)
+        })
+      } else {
+        const defaultArgument: PssArgument = {
+          id: 9999999,
+          role: 'empty',
+          value: 'empty',
+          tags: [],
+          refValue: 'empty',
+          predicate: {
+            id: predicate.id,
+            type: 'predicate',
+            frame: predicate.source,
+            text: predicate.value,
+            dashed: false,
+          }
+        }
         this.arg.push({
-          ...argument,
+          ...defaultArgument,
           predicate: {
             id: predicate.id,
             type: 'predicate',
@@ -35,9 +62,10 @@ export class MeaningRepresentationService {
             text: predicate.value,
             dashed: false,
           },
-        } as PssArgument),
-      ),
-    );
+        } as PssArgument)
+      }
+      console.groupEnd();
+    });
 
     // Groupe toute les propriétés qui ont la même valeur
     let group = this.arg.reduce((r: any, a: PssArgument) => {
@@ -45,7 +73,6 @@ export class MeaningRepresentationService {
       return r;
     }, {});
 
-    console.log(group);
     // Traite les cas des id qui sont égale à 0
     const reworkedDatas = Object.values(group).map((obj: any, index: number) =>
       obj.map((val: any) => ({ ...val, id: val.id === 0 ? index : val.id })),
@@ -62,14 +89,16 @@ export class MeaningRepresentationService {
 
       values.forEach((value: any) => {
         // console.log(value);
-        // Création de lien
-        this.links.push({
-          source: value.predicate.id,
-          target: value.id,
-          typeT: value.role,
-          typeS: 'predicate',
-          dashed: value.predicate.frame === 'INFERRED',
-        } as GraphLink);
+        if(value.role !== 'empty') {
+          // Création de lien
+          this.links.push({
+            source: value.predicate.id,
+            target: value.id,
+            typeT: value.role,
+            typeS: 'predicate',
+            dashed: value.predicate.frame === 'INFERRED',
+          } as GraphLink);
+        }
 
         // Création des noeuds "Prédicat" (rouge)
         this.nodes.push({
