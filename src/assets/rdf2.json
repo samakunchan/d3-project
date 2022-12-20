@@ -1,1098 +1,1167 @@
 {
-  "startTime" : 1669994027161,
-  "endTime" : 1669994030571,
-  "code" : 0,
-  "message" : null,
-  "language" : null,
-  "result" : {
-    "triples" : [ {
-      "subject" : {
-        "id" : -50551219,
-        "uri" : "http://www.emvista.com/kb/-50551219",
-        "value" : "Il"
-      },
-      "predicate" : {
-        "id" : 100000000,
-        "uri" : "http://www.w3.org/2002/07/owl#sameAs",
-        "value" : "identity"
-      },
-      "object" : {
-        "id" : -455314498,
-        "uri" : "http://www.emvista.com/kb/-455314498",
-        "value" : "Luc"
-      }
-    }, {
-      "subject" : {
-        "id" : 128780227,
-        "uri" : "http://www.emvista.com/kb/128780227",
-        "value" : "Elle"
-      },
-      "predicate" : {
-        "id" : 100000001,
-        "uri" : "http://www.w3.org/2002/07/owl#sameAs",
-        "value" : "identity"
-      },
-      "object" : {
-        "id" : 210963304,
-        "uri" : "http://www.emvista.com/kb/210963304",
-        "value" : "pomme"
-      }
-    }, {
-      "subject" : {
-        "id" : -1072714965,
-        "uri" : "http://www.emvista.com/ontology/-1072714965",
-        "value" : "masculine"
-      },
-      "predicate" : {
-        "id" : -1,
-        "uri" : "http://www.w3.org/2000/01/rdf-schema#label",
-        "value" : "label"
-      },
-      "object" : {
-        "id" : -1,
-        "uri" : "masculine",
-        "value" : "masculine"
-      }
-    }, {
-      "subject" : {
-        "id" : -455314498,
-        "uri" : "http://www.emvista.com/kb/-455314498",
-        "value" : "Luc"
-      },
-      "predicate" : {
-        "id" : 100000002,
-        "uri" : "http://www.emvista.com/ontology/has_type",
-        "value" : "type"
-      },
-      "object" : {
-        "id" : -1072714965,
-        "uri" : "http://www.emvista.com/ontology/-1072714965",
-        "value" : "masculine"
-      }
-    }, {
-      "subject" : {
-        "id" : -455314498,
-        "uri" : "http://www.emvista.com/kb/-455314498",
-        "value" : "Luc"
-      },
-      "predicate" : {
-        "id" : -1,
-        "uri" : "http://www.w3.org/2000/01/rdf-schema#label",
-        "value" : "label"
-      },
-      "object" : {
-        "id" : -455314498,
-        "uri" : "Luc",
-        "value" : "Luc"
-      }
-    }, {
-      "subject" : {
-        "id" : 1159262036,
-        "uri" : "http://www.emvista.com/ontology/1159262036",
-        "value" : "Thing/Concrete/Animate/Livingbeing/Human"
-      },
-      "predicate" : {
-        "id" : -1,
-        "uri" : "http://www.w3.org/2000/01/rdf-schema#label",
-        "value" : "label"
-      },
-      "object" : {
-        "id" : -1,
-        "uri" : "Thing/Concrete/Animate/Livingbeing/Human",
-        "value" : "Thing/Concrete/Animate/Livingbeing/Human"
-      }
-    }, {
-      "subject" : {
-        "id" : -455314498,
-        "uri" : "http://www.emvista.com/kb/-455314498",
-        "value" : "Luc"
-      },
-      "predicate" : {
-        "id" : 100000003,
-        "uri" : "http://www.emvista.com/ontology/has_type",
-        "value" : "type"
-      },
-      "object" : {
-        "id" : 1159262036,
-        "uri" : "http://www.emvista.com/ontology/1159262036",
-        "value" : "Thing/Concrete/Animate/Livingbeing/Human"
-      }
-    }, {
-      "subject" : {
-        "id" : -455314498,
-        "uri" : "http://www.emvista.com/kb/-455314498",
-        "value" : "Luc"
-      },
-      "predicate" : {
-        "id" : -1,
-        "uri" : "http://www.w3.org/2000/01/rdf-schema#label",
-        "value" : "label"
-      },
-      "object" : {
-        "id" : -455314498,
-        "uri" : "Luc",
-        "value" : "Luc"
-      }
-    }, {
-      "subject" : {
-        "id" : -993680648,
-        "uri" : "http://www.emvista.com/kb/-993680648",
-        "value" : "eat-39.1-1"
-      },
-      "predicate" : {
-        "id" : -1,
-        "uri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-        "value" : null
-      },
-      "object" : {
-        "id" : -1,
-        "uri" : "http://www.emvista.com/ontology/Event",
-        "value" : "Event"
-      }
-    }, {
-      "subject" : {
-        "id" : 210963304,
-        "uri" : "http://www.emvista.com/kb/pomme",
-        "value" : "pomme"
-      },
-      "predicate" : {
-        "id" : -1,
-        "uri" : "http://www.w3.org/2000/01/rdf-schema#label",
-        "value" : "label"
-      },
-      "object" : {
-        "id" : -1,
-        "uri" : "pomme",
-        "value" : "pomme"
-      }
-    }, {
-      "subject" : {
-        "id" : -993680648,
-        "uri" : "http://www.emvista.com/kb/-993680648",
-        "value" : "eat-39.1-1"
-      },
-      "predicate" : {
-        "id" : 210963304,
-        "uri" : "http://www.emvista.com/ontology/has_Patient",
-        "value" : "Patient"
-      },
-      "object" : {
-        "id" : 210963304,
-        "uri" : "http://www.emvista.com/kb/pomme",
-        "value" : "pomme"
-      }
-    }, {
-      "subject" : {
-        "id" : -993680648,
-        "uri" : "http://www.emvista.com/kb/-993680648",
-        "value" : "eat-39.1-1"
-      },
-      "predicate" : {
-        "id" : -1293477751,
-        "uri" : "http://www.emvista.com/ontology/has_TimeExact",
-        "value" : "TimeExact"
-      },
-      "object" : {
-        "id" : -1293477751,
-        "uri" : "2022-12-02T15:13:48.514510512",
-        "value" : "2022-12-02T15:13:48.514510512"
-      }
-    }, {
-      "subject" : {
-        "id" : -161441142,
-        "uri" : "http://www.emvista.com/kb/et",
-        "value" : "et"
-      },
-      "predicate" : {
-        "id" : -1,
-        "uri" : "http://www.w3.org/2000/01/rdf-schema#label",
-        "value" : "label"
-      },
-      "object" : {
-        "id" : -1,
-        "uri" : "et",
-        "value" : "et"
-      }
-    }, {
-      "subject" : {
-        "id" : -993680648,
-        "uri" : "http://www.emvista.com/kb/-993680648",
-        "value" : "eat-39.1-1"
-      },
-      "predicate" : {
-        "id" : -161441142,
-        "uri" : "http://www.emvista.com/ontology/has_Agent",
-        "value" : "Agent"
-      },
-      "object" : {
-        "id" : -161441142,
-        "uri" : "http://www.emvista.com/kb/et",
-        "value" : "et"
-      }
-    }, {
-      "subject" : {
-        "id" : -455314498,
-        "uri" : "http://www.emvista.com/kb/Luc",
-        "value" : "Luc"
-      },
-      "predicate" : {
-        "id" : -1,
-        "uri" : "http://www.w3.org/2000/01/rdf-schema#label",
-        "value" : "label"
-      },
-      "object" : {
-        "id" : -1,
-        "uri" : "Luc",
-        "value" : "Luc"
-      }
-    }, {
-      "subject" : {
-        "id" : -993680648,
-        "uri" : "http://www.emvista.com/kb/-993680648",
-        "value" : "eat-39.1-1"
-      },
-      "predicate" : {
-        "id" : -455314498,
-        "uri" : "http://www.emvista.com/ontology/has_Agent",
-        "value" : "Agent"
-      },
-      "object" : {
-        "id" : -455314498,
-        "uri" : "http://www.emvista.com/kb/Luc",
-        "value" : "Luc"
-      }
-    }, {
-      "subject" : {
-        "id" : 210963304,
-        "uri" : "http://www.emvista.com/kb/210963304",
-        "value" : "pomme"
-      },
-      "predicate" : {
-        "id" : 100000004,
-        "uri" : "http://www.emvista.com/ontology/has_cardinality",
-        "value" : "cardinality"
-      },
-      "object" : {
-        "id" : 553497772,
-        "uri" : "1",
-        "value" : "1"
-      }
-    }, {
-      "subject" : {
-        "id" : 210963304,
-        "uri" : "http://www.emvista.com/kb/210963304",
-        "value" : "pomme"
-      },
-      "predicate" : {
-        "id" : -1,
-        "uri" : "http://www.w3.org/2000/01/rdf-schema#label",
-        "value" : "label"
-      },
-      "object" : {
-        "id" : 210963304,
-        "uri" : "pomme",
-        "value" : "pomme"
-      }
-    }, {
-      "subject" : {
-        "id" : -1306470874,
-        "uri" : "http://www.emvista.com/ontology/-1306470874",
-        "value" : "Thing/Concrete/Inanimate/Ingredient"
-      },
-      "predicate" : {
-        "id" : -1,
-        "uri" : "http://www.w3.org/2000/01/rdf-schema#label",
-        "value" : "label"
-      },
-      "object" : {
-        "id" : -1,
-        "uri" : "Thing/Concrete/Inanimate/Ingredient",
-        "value" : "Thing/Concrete/Inanimate/Ingredient"
-      }
-    }, {
-      "subject" : {
-        "id" : 210963304,
-        "uri" : "http://www.emvista.com/kb/210963304",
-        "value" : "pomme"
-      },
-      "predicate" : {
-        "id" : 100000005,
-        "uri" : "http://www.emvista.com/ontology/has_type",
-        "value" : "type"
-      },
-      "object" : {
-        "id" : -1306470874,
-        "uri" : "http://www.emvista.com/ontology/-1306470874",
-        "value" : "Thing/Concrete/Inanimate/Ingredient"
-      }
-    }, {
-      "subject" : {
-        "id" : 210963304,
-        "uri" : "http://www.emvista.com/kb/210963304",
-        "value" : "pomme"
-      },
-      "predicate" : {
-        "id" : -1,
-        "uri" : "http://www.w3.org/2000/01/rdf-schema#label",
-        "value" : "label"
-      },
-      "object" : {
-        "id" : 210963304,
-        "uri" : "pomme",
-        "value" : "pomme"
-      }
-    }, {
-      "subject" : {
-        "id" : 455515589,
-        "uri" : "http://www.emvista.com/ontology/455515589",
-        "value" : "Thing/Concrete/Animate/Livingbeing/Animal"
-      },
-      "predicate" : {
-        "id" : -1,
-        "uri" : "http://www.w3.org/2000/01/rdf-schema#label",
-        "value" : "label"
-      },
-      "object" : {
-        "id" : -1,
-        "uri" : "Thing/Concrete/Animate/Livingbeing/Animal",
-        "value" : "Thing/Concrete/Animate/Livingbeing/Animal"
-      }
-    }, {
-      "subject" : {
-        "id" : -818117435,
-        "uri" : "http://www.emvista.com/kb/-818117435",
-        "value" : "chien"
-      },
-      "predicate" : {
-        "id" : 100000006,
-        "uri" : "http://www.emvista.com/ontology/has_type",
-        "value" : "type"
-      },
-      "object" : {
-        "id" : 455515589,
-        "uri" : "http://www.emvista.com/ontology/455515589",
-        "value" : "Thing/Concrete/Animate/Livingbeing/Animal"
-      }
-    }, {
-      "subject" : {
-        "id" : -818117435,
-        "uri" : "http://www.emvista.com/kb/-818117435",
-        "value" : "chien"
-      },
-      "predicate" : {
-        "id" : -1,
-        "uri" : "http://www.w3.org/2000/01/rdf-schema#label",
-        "value" : "label"
-      },
-      "object" : {
-        "id" : -818117435,
-        "uri" : "chien",
-        "value" : "chien"
-      }
-    }, {
-      "subject" : {
-        "id" : 1947068802,
-        "uri" : "http://www.emvista.com/ontology/1947068802",
-        "value" : "masculine"
-      },
-      "predicate" : {
-        "id" : -1,
-        "uri" : "http://www.w3.org/2000/01/rdf-schema#label",
-        "value" : "label"
-      },
-      "object" : {
-        "id" : -1,
-        "uri" : "masculine",
-        "value" : "masculine"
-      }
-    }, {
-      "subject" : {
-        "id" : -818117435,
-        "uri" : "http://www.emvista.com/kb/-818117435",
-        "value" : "chien"
-      },
-      "predicate" : {
-        "id" : 100000007,
-        "uri" : "http://www.emvista.com/ontology/has_type",
-        "value" : "type"
-      },
-      "object" : {
-        "id" : 1947068802,
-        "uri" : "http://www.emvista.com/ontology/1947068802",
-        "value" : "masculine"
-      }
-    }, {
-      "subject" : {
-        "id" : -818117435,
-        "uri" : "http://www.emvista.com/kb/-818117435",
-        "value" : "chien"
-      },
-      "predicate" : {
-        "id" : -1,
-        "uri" : "http://www.w3.org/2000/01/rdf-schema#label",
-        "value" : "label"
-      },
-      "object" : {
-        "id" : -818117435,
-        "uri" : "chien",
-        "value" : "chien"
-      }
-    }, {
-      "subject" : {
-        "id" : -1258572884,
-        "uri" : "http://www.emvista.com/kb/-1258572884",
-        "value" : "chèvre"
-      },
-      "predicate" : {
-        "id" : 100000008,
-        "uri" : "http://www.emvista.com/ontology/has_cardinality",
-        "value" : "cardinality"
-      },
-      "object" : {
-        "id" : 931234587,
-        "uri" : "1",
-        "value" : "1"
-      }
-    }, {
-      "subject" : {
-        "id" : -1258572884,
-        "uri" : "http://www.emvista.com/kb/-1258572884",
-        "value" : "chèvre"
-      },
-      "predicate" : {
-        "id" : -1,
-        "uri" : "http://www.w3.org/2000/01/rdf-schema#label",
-        "value" : "label"
-      },
-      "object" : {
-        "id" : -1258572884,
-        "uri" : "chèvre",
-        "value" : "chèvre"
-      }
-    }, {
-      "subject" : {
-        "id" : 109673897,
-        "uri" : "http://www.emvista.com/kb/109673897",
-        "value" : "own-100"
-      },
-      "predicate" : {
-        "id" : -1,
-        "uri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-        "value" : null
-      },
-      "object" : {
-        "id" : -1,
-        "uri" : "http://www.emvista.com/ontology/Event",
-        "value" : "Event"
-      }
-    }, {
-      "subject" : {
-        "id" : -455314498,
-        "uri" : "http://www.emvista.com/kb/Luc",
-        "value" : "Luc"
-      },
-      "predicate" : {
-        "id" : -1,
-        "uri" : "http://www.w3.org/2000/01/rdf-schema#label",
-        "value" : "label"
-      },
-      "object" : {
-        "id" : -1,
-        "uri" : "Luc",
-        "value" : "Luc"
-      }
-    }, {
-      "subject" : {
-        "id" : 109673897,
-        "uri" : "http://www.emvista.com/kb/109673897",
-        "value" : "own-100"
-      },
-      "predicate" : {
-        "id" : -455314498,
-        "uri" : "http://www.emvista.com/ontology/has_Pivot",
-        "value" : "Pivot"
-      },
-      "object" : {
-        "id" : -455314498,
-        "uri" : "http://www.emvista.com/kb/Luc",
-        "value" : "Luc"
-      }
-    }, {
-      "subject" : {
-        "id" : -161441142,
-        "uri" : "http://www.emvista.com/kb/et",
-        "value" : "et"
-      },
-      "predicate" : {
-        "id" : -1,
-        "uri" : "http://www.w3.org/2000/01/rdf-schema#label",
-        "value" : "label"
-      },
-      "object" : {
-        "id" : -1,
-        "uri" : "et",
-        "value" : "et"
-      }
-    }, {
-      "subject" : {
-        "id" : 109673897,
-        "uri" : "http://www.emvista.com/kb/109673897",
-        "value" : "own-100"
-      },
-      "predicate" : {
-        "id" : -161441142,
-        "uri" : "http://www.emvista.com/ontology/has_Theme",
-        "value" : "Theme"
-      },
-      "object" : {
-        "id" : -161441142,
-        "uri" : "http://www.emvista.com/kb/et",
-        "value" : "et"
-      }
-    }, {
-      "subject" : {
-        "id" : -1867715669,
-        "uri" : "http://www.emvista.com/ontology/-1867715669",
-        "value" : "Thing/Concrete/Animate/Livingbeing/Animal"
-      },
-      "predicate" : {
-        "id" : -1,
-        "uri" : "http://www.w3.org/2000/01/rdf-schema#label",
-        "value" : "label"
-      },
-      "object" : {
-        "id" : -1,
-        "uri" : "Thing/Concrete/Animate/Livingbeing/Animal",
-        "value" : "Thing/Concrete/Animate/Livingbeing/Animal"
-      }
-    }, {
-      "subject" : {
-        "id" : -1258572884,
-        "uri" : "http://www.emvista.com/kb/-1258572884",
-        "value" : "chèvre"
-      },
-      "predicate" : {
-        "id" : 100000009,
-        "uri" : "http://www.emvista.com/ontology/has_type",
-        "value" : "type"
-      },
-      "object" : {
-        "id" : -1867715669,
-        "uri" : "http://www.emvista.com/ontology/-1867715669",
-        "value" : "Thing/Concrete/Animate/Livingbeing/Animal"
-      }
-    }, {
-      "subject" : {
-        "id" : -1258572884,
-        "uri" : "http://www.emvista.com/kb/-1258572884",
-        "value" : "chèvre"
-      },
-      "predicate" : {
-        "id" : -1,
-        "uri" : "http://www.w3.org/2000/01/rdf-schema#label",
-        "value" : "label"
-      },
-      "object" : {
-        "id" : -1258572884,
-        "uri" : "chèvre",
-        "value" : "chèvre"
-      }
-    }, {
-      "subject" : {
-        "id" : 2007383851,
-        "uri" : "http://www.emvista.com/ontology/2007383851",
-        "value" : "masculine"
-      },
-      "predicate" : {
-        "id" : -1,
-        "uri" : "http://www.w3.org/2000/01/rdf-schema#label",
-        "value" : "label"
-      },
-      "object" : {
-        "id" : -1,
-        "uri" : "masculine",
-        "value" : "masculine"
-      }
-    }, {
-      "subject" : {
-        "id" : -50551219,
-        "uri" : "http://www.emvista.com/kb/-50551219",
-        "value" : "Il"
-      },
-      "predicate" : {
-        "id" : 100000010,
-        "uri" : "http://www.emvista.com/ontology/has_type",
-        "value" : "type"
-      },
-      "object" : {
-        "id" : 2007383851,
-        "uri" : "http://www.emvista.com/ontology/2007383851",
-        "value" : "masculine"
-      }
-    }, {
-      "subject" : {
-        "id" : -50551219,
-        "uri" : "http://www.emvista.com/kb/-50551219",
-        "value" : "Il"
-      },
-      "predicate" : {
-        "id" : -1,
-        "uri" : "http://www.w3.org/2000/01/rdf-schema#label",
-        "value" : "label"
-      },
-      "object" : {
-        "id" : -50551219,
-        "uri" : "Il",
-        "value" : "Il"
-      }
-    }, {
-      "subject" : {
-        "id" : -50551219,
-        "uri" : "http://www.emvista.com/kb/-50551219",
-        "value" : "Il"
-      },
-      "predicate" : {
-        "id" : 100000011,
-        "uri" : "http://www.emvista.com/ontology/has_state",
-        "value" : "state"
-      },
-      "object" : {
-        "id" : 587978108,
-        "uri" : "content",
-        "value" : "content"
-      }
-    }, {
-      "subject" : {
-        "id" : -50551219,
-        "uri" : "http://www.emvista.com/kb/-50551219",
-        "value" : "Il"
-      },
-      "predicate" : {
-        "id" : -1,
-        "uri" : "http://www.w3.org/2000/01/rdf-schema#label",
-        "value" : "label"
-      },
-      "object" : {
-        "id" : -50551219,
-        "uri" : "Il",
-        "value" : "Il"
-      }
-    }, {
-      "subject" : {
-        "id" : 587978108,
-        "uri" : "http://www.emvista.com/kb/587978108",
-        "value" : "content"
-      },
-      "predicate" : {
-        "id" : 100000012,
-        "uri" : "http://www.emvista.com/ontology/has_polarity",
-        "value" : "polarity"
-      },
-      "object" : {
-        "id" : 448690856,
-        "uri" : "Pos",
-        "value" : "Pos"
-      }
-    }, {
-      "subject" : {
-        "id" : 587978108,
-        "uri" : "http://www.emvista.com/kb/587978108",
-        "value" : "content"
-      },
-      "predicate" : {
-        "id" : -1,
-        "uri" : "http://www.w3.org/2000/01/rdf-schema#label",
-        "value" : "label"
-      },
-      "object" : {
-        "id" : 587978108,
-        "uri" : "content",
-        "value" : "content"
-      }
-    }, {
-      "subject" : {
-        "id" : 1226595210,
-        "uri" : "http://www.emvista.com/ontology/1226595210",
-        "value" : "feminine"
-      },
-      "predicate" : {
-        "id" : -1,
-        "uri" : "http://www.w3.org/2000/01/rdf-schema#label",
-        "value" : "label"
-      },
-      "object" : {
-        "id" : -1,
-        "uri" : "feminine",
-        "value" : "feminine"
-      }
-    }, {
-      "subject" : {
-        "id" : 128780227,
-        "uri" : "http://www.emvista.com/kb/128780227",
-        "value" : "Elle"
-      },
-      "predicate" : {
-        "id" : 100000013,
-        "uri" : "http://www.emvista.com/ontology/has_type",
-        "value" : "type"
-      },
-      "object" : {
-        "id" : 1226595210,
-        "uri" : "http://www.emvista.com/ontology/1226595210",
-        "value" : "feminine"
-      }
-    }, {
-      "subject" : {
-        "id" : 128780227,
-        "uri" : "http://www.emvista.com/kb/128780227",
-        "value" : "Elle"
-      },
-      "predicate" : {
-        "id" : -1,
-        "uri" : "http://www.w3.org/2000/01/rdf-schema#label",
-        "value" : "label"
-      },
-      "object" : {
-        "id" : 128780227,
-        "uri" : "Elle",
-        "value" : "Elle"
-      }
-    }, {
-      "subject" : {
-        "id" : 128780227,
-        "uri" : "http://www.emvista.com/kb/128780227",
-        "value" : "Elle"
-      },
-      "predicate" : {
-        "id" : 100000014,
-        "uri" : "http://www.emvista.com/ontology/has_state",
-        "value" : "state"
-      },
-      "object" : {
-        "id" : 87544582,
-        "uri" : "heureuse",
-        "value" : "heureuse"
-      }
-    }, {
-      "subject" : {
-        "id" : 128780227,
-        "uri" : "http://www.emvista.com/kb/128780227",
-        "value" : "Elle"
-      },
-      "predicate" : {
-        "id" : -1,
-        "uri" : "http://www.w3.org/2000/01/rdf-schema#label",
-        "value" : "label"
-      },
-      "object" : {
-        "id" : 128780227,
-        "uri" : "Elle",
-        "value" : "Elle"
-      }
-    }, {
-      "subject" : {
-        "id" : 87544582,
-        "uri" : "http://www.emvista.com/kb/87544582",
-        "value" : "heureuse"
-      },
-      "predicate" : {
-        "id" : 100000015,
-        "uri" : "http://www.emvista.com/ontology/has_polarity",
-        "value" : "polarity"
-      },
-      "object" : {
-        "id" : -1883676554,
-        "uri" : "Pos",
-        "value" : "Pos"
-      }
-    }, {
-      "subject" : {
-        "id" : 87544582,
-        "uri" : "http://www.emvista.com/kb/87544582",
-        "value" : "heureuse"
-      },
-      "predicate" : {
-        "id" : -1,
-        "uri" : "http://www.w3.org/2000/01/rdf-schema#label",
-        "value" : "label"
-      },
-      "object" : {
-        "id" : 87544582,
-        "uri" : "heureuse",
-        "value" : "heureuse"
-      }
-    }, {
-      "subject" : {
-        "id" : -993680648,
-        "uri" : "http://www.emvista.com/kb/-993680648",
-        "value" : "mange"
-      },
-      "predicate" : {
-        "id" : 100000016,
-        "uri" : "http://www.emvista.com/ontology/has_polarity",
-        "value" : "polarity"
-      },
-      "object" : {
-        "id" : -963697070,
-        "uri" : "Pos",
-        "value" : "Pos"
-      }
-    }, {
-      "subject" : {
-        "id" : -993680648,
-        "uri" : "http://www.emvista.com/kb/-993680648",
-        "value" : "mange"
-      },
-      "predicate" : {
-        "id" : -1,
-        "uri" : "http://www.w3.org/2000/01/rdf-schema#label",
-        "value" : "label"
-      },
-      "object" : {
-        "id" : -993680648,
-        "uri" : "mange",
-        "value" : "mange"
-      }
-    }, {
-      "subject" : {
-        "id" : -161441142,
-        "uri" : "http://www.emvista.com/kb/-161441142",
-        "value" : "addition"
-      },
-      "predicate" : {
-        "id" : -1,
-        "uri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-        "value" : null
-      },
-      "object" : {
-        "id" : -1,
-        "uri" : "http://www.emvista.com/ontology/Event",
-        "value" : "Event"
-      }
-    }, {
-      "subject" : {
-        "id" : -818117435,
-        "uri" : "http://www.emvista.com/kb/chien",
-        "value" : "chien"
-      },
-      "predicate" : {
-        "id" : -1,
-        "uri" : "http://www.w3.org/2000/01/rdf-schema#label",
-        "value" : "label"
-      },
-      "object" : {
-        "id" : -1,
-        "uri" : "chien",
-        "value" : "chien"
-      }
-    }, {
-      "subject" : {
-        "id" : -161441142,
-        "uri" : "http://www.emvista.com/kb/-161441142",
-        "value" : "addition"
-      },
-      "predicate" : {
-        "id" : -818117435,
-        "uri" : "http://www.emvista.com/ontology/has_Addition",
-        "value" : "Addition"
-      },
-      "object" : {
-        "id" : -818117435,
-        "uri" : "http://www.emvista.com/kb/chien",
-        "value" : "chien"
-      }
-    }, {
-      "subject" : {
-        "id" : -1258572884,
-        "uri" : "http://www.emvista.com/kb/chèvre",
-        "value" : "chèvre"
-      },
-      "predicate" : {
-        "id" : -1,
-        "uri" : "http://www.w3.org/2000/01/rdf-schema#label",
-        "value" : "label"
-      },
-      "object" : {
-        "id" : -1,
-        "uri" : "chèvre",
-        "value" : "chèvre"
-      }
-    }, {
-      "subject" : {
-        "id" : -161441142,
-        "uri" : "http://www.emvista.com/kb/-161441142",
-        "value" : "addition"
-      },
-      "predicate" : {
-        "id" : -1258572884,
-        "uri" : "http://www.emvista.com/ontology/has_Addition",
-        "value" : "Addition"
-      },
-      "object" : {
-        "id" : -1258572884,
-        "uri" : "http://www.emvista.com/kb/chèvre",
-        "value" : "chèvre"
-      }
-    }, {
-      "subject" : {
-        "id" : -993680648,
-        "uri" : "http://www.emvista.com/kb/-993680648",
-        "value" : "mange"
-      },
-      "predicate" : {
-        "id" : 100000017,
-        "uri" : "http://www.emvista.com/ontology/has_aspect",
-        "value" : "aspect"
-      },
-      "object" : {
-        "id" : 856942713,
-        "uri" : "atelic_process",
-        "value" : "atelic_process"
-      }
-    }, {
-      "subject" : {
-        "id" : -993680648,
-        "uri" : "http://www.emvista.com/kb/-993680648",
-        "value" : "mange"
-      },
-      "predicate" : {
-        "id" : -1,
-        "uri" : "http://www.w3.org/2000/01/rdf-schema#label",
-        "value" : "label"
-      },
-      "object" : {
-        "id" : -993680648,
-        "uri" : "mange",
-        "value" : "mange"
-      }
-    }, {
-      "subject" : {
-        "id" : -956299042,
-        "uri" : "http://www.emvista.com/kb/-956299042",
-        "value" : "est"
-      },
-      "predicate" : {
-        "id" : 100000018,
-        "uri" : "http://www.emvista.com/ontology/has_polarity",
-        "value" : "polarity"
-      },
-      "object" : {
-        "id" : 1593627585,
-        "uri" : "Pos",
-        "value" : "Pos"
-      }
-    }, {
-      "subject" : {
-        "id" : -956299042,
-        "uri" : "http://www.emvista.com/kb/-956299042",
-        "value" : "est"
-      },
-      "predicate" : {
-        "id" : -1,
-        "uri" : "http://www.w3.org/2000/01/rdf-schema#label",
-        "value" : "label"
-      },
-      "object" : {
-        "id" : -956299042,
-        "uri" : "est",
-        "value" : "est"
-      }
-    }, {
-      "subject" : {
-        "id" : -956299042,
-        "uri" : "http://www.emvista.com/kb/-956299042",
-        "value" : "est"
-      },
-      "predicate" : {
-        "id" : 100000019,
-        "uri" : "http://www.emvista.com/ontology/has_aspect",
-        "value" : "aspect"
-      },
-      "object" : {
-        "id" : -1440977077,
-        "uri" : "state",
-        "value" : "state"
-      }
-    }, {
-      "subject" : {
-        "id" : -956299042,
-        "uri" : "http://www.emvista.com/kb/-956299042",
-        "value" : "est"
-      },
-      "predicate" : {
-        "id" : -1,
-        "uri" : "http://www.w3.org/2000/01/rdf-schema#label",
-        "value" : "label"
-      },
-      "object" : {
-        "id" : -956299042,
-        "uri" : "est",
-        "value" : "est"
-      }
-    }, {
-      "subject" : {
-        "id" : 265160827,
-        "uri" : "http://www.emvista.com/kb/265160827",
-        "value" : "est"
-      },
-      "predicate" : {
-        "id" : 100000020,
-        "uri" : "http://www.emvista.com/ontology/has_polarity",
-        "value" : "polarity"
-      },
-      "object" : {
-        "id" : -416282909,
-        "uri" : "Pos",
-        "value" : "Pos"
-      }
-    }, {
-      "subject" : {
-        "id" : 265160827,
-        "uri" : "http://www.emvista.com/kb/265160827",
-        "value" : "est"
-      },
-      "predicate" : {
-        "id" : -1,
-        "uri" : "http://www.w3.org/2000/01/rdf-schema#label",
-        "value" : "label"
-      },
-      "object" : {
-        "id" : 265160827,
-        "uri" : "est",
-        "value" : "est"
-      }
-    }, {
-      "subject" : {
-        "id" : 265160827,
-        "uri" : "http://www.emvista.com/kb/265160827",
-        "value" : "est"
-      },
-      "predicate" : {
-        "id" : 100000021,
-        "uri" : "http://www.emvista.com/ontology/has_aspect",
-        "value" : "aspect"
-      },
-      "object" : {
-        "id" : 1618323153,
-        "uri" : "state",
-        "value" : "state"
-      }
-    }, {
-      "subject" : {
-        "id" : 265160827,
-        "uri" : "http://www.emvista.com/kb/265160827",
-        "value" : "est"
-      },
-      "predicate" : {
-        "id" : -1,
-        "uri" : "http://www.w3.org/2000/01/rdf-schema#label",
-        "value" : "label"
-      },
-      "object" : {
-        "id" : 265160827,
-        "uri" : "est",
-        "value" : "est"
-      }
-    } ]
+  "startTime": 1669994027161,
+  "endTime": 1669994030571,
+  "code": 0,
+  "message": null,
+  "language": null,
+  "result": {
+    "triples": [
+      {
+        "subject": {
+          "id": -50551219,
+          "uri": "http://www.emvista.com/kb/-50551219",
+          "value": "Il"
+        },
+        "predicate": {
+          "id": 100000000,
+          "uri": "http://www.w3.org/2002/07/owl#sameAs",
+          "value": "identity"
+        },
+        "object": {
+          "id": -455314498,
+          "uri": "http://www.emvista.com/kb/-455314498",
+          "value": "Luc"
+        }
+      },
+      {
+        "subject": {
+          "id": 128780227,
+          "uri": "http://www.emvista.com/kb/128780227",
+          "value": "Elle"
+        },
+        "predicate": {
+          "id": 100000001,
+          "uri": "http://www.w3.org/2002/07/owl#sameAs",
+          "value": "identity"
+        },
+        "object": {
+          "id": 210963304,
+          "uri": "http://www.emvista.com/kb/210963304",
+          "value": "pomme"
+        }
+      },
+      {
+        "subject": {
+          "id": -1072714965,
+          "uri": "http://www.emvista.com/ontology/-1072714965",
+          "value": "masculine"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": -1,
+          "uri": "masculine",
+          "value": "masculine"
+        }
+      },
+      {
+        "subject": {
+          "id": -455314498,
+          "uri": "http://www.emvista.com/kb/-455314498",
+          "value": "Luc"
+        },
+        "predicate": {
+          "id": 100000002,
+          "uri": "http://www.emvista.com/ontology/has_type",
+          "value": "type"
+        },
+        "object": {
+          "id": -1072714965,
+          "uri": "http://www.emvista.com/ontology/-1072714965",
+          "value": "masculine"
+        }
+      },
+      {
+        "subject": {
+          "id": -455314498,
+          "uri": "http://www.emvista.com/kb/-455314498",
+          "value": "Luc"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": -455314498,
+          "uri": "Luc",
+          "value": "Luc"
+        }
+      },
+      {
+        "subject": {
+          "id": 1159262036,
+          "uri": "http://www.emvista.com/ontology/1159262036",
+          "value": "Thing/Concrete/Animate/Livingbeing/Human"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": -1,
+          "uri": "Thing/Concrete/Animate/Livingbeing/Human",
+          "value": "Thing/Concrete/Animate/Livingbeing/Human"
+        }
+      },
+      {
+        "subject": {
+          "id": -455314498,
+          "uri": "http://www.emvista.com/kb/-455314498",
+          "value": "Luc"
+        },
+        "predicate": {
+          "id": 100000003,
+          "uri": "http://www.emvista.com/ontology/has_type",
+          "value": "type"
+        },
+        "object": {
+          "id": 1159262036,
+          "uri": "http://www.emvista.com/ontology/1159262036",
+          "value": "Thing/Concrete/Animate/Livingbeing/Human"
+        }
+      },
+      {
+        "subject": {
+          "id": -455314498,
+          "uri": "http://www.emvista.com/kb/-455314498",
+          "value": "Luc"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": -455314498,
+          "uri": "Luc",
+          "value": "Luc"
+        }
+      },
+      {
+        "subject": {
+          "id": -993680648,
+          "uri": "http://www.emvista.com/kb/-993680648",
+          "value": "eat-39.1-1"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+          "value": null
+        },
+        "object": {
+          "id": -1,
+          "uri": "http://www.emvista.com/ontology/Event",
+          "value": "Event"
+        }
+      },
+      {
+        "subject": {
+          "id": 210963304,
+          "uri": "http://www.emvista.com/kb/pomme",
+          "value": "pomme"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": -1,
+          "uri": "pomme",
+          "value": "pomme"
+        }
+      },
+      {
+        "subject": {
+          "id": -993680648,
+          "uri": "http://www.emvista.com/kb/-993680648",
+          "value": "eat-39.1-1"
+        },
+        "predicate": {
+          "id": 210963304,
+          "uri": "http://www.emvista.com/ontology/has_Patient",
+          "value": "Patient"
+        },
+        "object": {
+          "id": 210963304,
+          "uri": "http://www.emvista.com/kb/pomme",
+          "value": "pomme"
+        }
+      },
+      {
+        "subject": {
+          "id": -993680648,
+          "uri": "http://www.emvista.com/kb/-993680648",
+          "value": "eat-39.1-1"
+        },
+        "predicate": {
+          "id": -1293477751,
+          "uri": "http://www.emvista.com/ontology/has_TimeExact",
+          "value": "TimeExact"
+        },
+        "object": {
+          "id": -1293477751,
+          "uri": "2022-12-02T15:13:48.514510512",
+          "value": "2022-12-02T15:13:48.514510512"
+        }
+      },
+      {
+        "subject": {
+          "id": -161441142,
+          "uri": "http://www.emvista.com/kb/et",
+          "value": "et"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": -1,
+          "uri": "et",
+          "value": "et"
+        }
+      },
+      {
+        "subject": {
+          "id": -993680648,
+          "uri": "http://www.emvista.com/kb/-993680648",
+          "value": "eat-39.1-1"
+        },
+        "predicate": {
+          "id": -161441142,
+          "uri": "http://www.emvista.com/ontology/has_Agent",
+          "value": "Agent"
+        },
+        "object": {
+          "id": -161441142,
+          "uri": "http://www.emvista.com/kb/et",
+          "value": "et"
+        }
+      },
+      {
+        "subject": {
+          "id": -455314498,
+          "uri": "http://www.emvista.com/kb/Luc",
+          "value": "Luc"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": -1,
+          "uri": "Luc",
+          "value": "Luc"
+        }
+      },
+      {
+        "subject": {
+          "id": -993680648,
+          "uri": "http://www.emvista.com/kb/-993680648",
+          "value": "eat-39.1-1"
+        },
+        "predicate": {
+          "id": -455314498,
+          "uri": "http://www.emvista.com/ontology/has_Agent",
+          "value": "Agent"
+        },
+        "object": {
+          "id": -455314498,
+          "uri": "http://www.emvista.com/kb/Luc",
+          "value": "Luc"
+        }
+      },
+      {
+        "subject": {
+          "id": 210963304,
+          "uri": "http://www.emvista.com/kb/210963304",
+          "value": "pomme"
+        },
+        "predicate": {
+          "id": 100000004,
+          "uri": "http://www.emvista.com/ontology/has_cardinality",
+          "value": "cardinality"
+        },
+        "object": {
+          "id": 553497772,
+          "uri": "1",
+          "value": "1"
+        }
+      },
+      {
+        "subject": {
+          "id": 210963304,
+          "uri": "http://www.emvista.com/kb/210963304",
+          "value": "pomme"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": 210963304,
+          "uri": "pomme",
+          "value": "pomme"
+        }
+      },
+      {
+        "subject": {
+          "id": -1306470874,
+          "uri": "http://www.emvista.com/ontology/-1306470874",
+          "value": "Thing/Concrete/Inanimate/Ingredient"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": -1,
+          "uri": "Thing/Concrete/Inanimate/Ingredient",
+          "value": "Thing/Concrete/Inanimate/Ingredient"
+        }
+      },
+      {
+        "subject": {
+          "id": 210963304,
+          "uri": "http://www.emvista.com/kb/210963304",
+          "value": "pomme"
+        },
+        "predicate": {
+          "id": 100000005,
+          "uri": "http://www.emvista.com/ontology/has_type",
+          "value": "type"
+        },
+        "object": {
+          "id": -1306470874,
+          "uri": "http://www.emvista.com/ontology/-1306470874",
+          "value": "Thing/Concrete/Inanimate/Ingredient"
+        }
+      },
+      {
+        "subject": {
+          "id": 210963304,
+          "uri": "http://www.emvista.com/kb/210963304",
+          "value": "pomme"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": 210963304,
+          "uri": "pomme",
+          "value": "pomme"
+        }
+      },
+      {
+        "subject": {
+          "id": 455515589,
+          "uri": "http://www.emvista.com/ontology/455515589",
+          "value": "Thing/Concrete/Animate/Livingbeing/Animal"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": -1,
+          "uri": "Thing/Concrete/Animate/Livingbeing/Animal",
+          "value": "Thing/Concrete/Animate/Livingbeing/Animal"
+        }
+      },
+      {
+        "subject": {
+          "id": -818117435,
+          "uri": "http://www.emvista.com/kb/-818117435",
+          "value": "chien"
+        },
+        "predicate": {
+          "id": 100000006,
+          "uri": "http://www.emvista.com/ontology/has_type",
+          "value": "type"
+        },
+        "object": {
+          "id": 455515589,
+          "uri": "http://www.emvista.com/ontology/455515589",
+          "value": "Thing/Concrete/Animate/Livingbeing/Animal"
+        }
+      },
+      {
+        "subject": {
+          "id": -818117435,
+          "uri": "http://www.emvista.com/kb/-818117435",
+          "value": "chien"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": -818117435,
+          "uri": "chien",
+          "value": "chien"
+        }
+      },
+      {
+        "subject": {
+          "id": 1947068802,
+          "uri": "http://www.emvista.com/ontology/1947068802",
+          "value": "masculine"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": -1,
+          "uri": "masculine",
+          "value": "masculine"
+        }
+      },
+      {
+        "subject": {
+          "id": -818117435,
+          "uri": "http://www.emvista.com/kb/-818117435",
+          "value": "chien"
+        },
+        "predicate": {
+          "id": 100000007,
+          "uri": "http://www.emvista.com/ontology/has_type",
+          "value": "type"
+        },
+        "object": {
+          "id": 1947068802,
+          "uri": "http://www.emvista.com/ontology/1947068802",
+          "value": "masculine"
+        }
+      },
+      {
+        "subject": {
+          "id": -818117435,
+          "uri": "http://www.emvista.com/kb/-818117435",
+          "value": "chien"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": -818117435,
+          "uri": "chien",
+          "value": "chien"
+        }
+      },
+      {
+        "subject": {
+          "id": -1258572884,
+          "uri": "http://www.emvista.com/kb/-1258572884",
+          "value": "chèvre"
+        },
+        "predicate": {
+          "id": 100000008,
+          "uri": "http://www.emvista.com/ontology/has_cardinality",
+          "value": "cardinality"
+        },
+        "object": {
+          "id": 931234587,
+          "uri": "1",
+          "value": "1"
+        }
+      },
+      {
+        "subject": {
+          "id": -1258572884,
+          "uri": "http://www.emvista.com/kb/-1258572884",
+          "value": "chèvre"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": -1258572884,
+          "uri": "chèvre",
+          "value": "chèvre"
+        }
+      },
+      {
+        "subject": {
+          "id": 109673897,
+          "uri": "http://www.emvista.com/kb/109673897",
+          "value": "own-100"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+          "value": null
+        },
+        "object": {
+          "id": -1,
+          "uri": "http://www.emvista.com/ontology/Event",
+          "value": "Event"
+        }
+      },
+      {
+        "subject": {
+          "id": -455314498,
+          "uri": "http://www.emvista.com/kb/Luc",
+          "value": "Luc"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": -1,
+          "uri": "Luc",
+          "value": "Luc"
+        }
+      },
+      {
+        "subject": {
+          "id": 109673897,
+          "uri": "http://www.emvista.com/kb/109673897",
+          "value": "own-100"
+        },
+        "predicate": {
+          "id": -455314498,
+          "uri": "http://www.emvista.com/ontology/has_Pivot",
+          "value": "Pivot"
+        },
+        "object": {
+          "id": -455314498,
+          "uri": "http://www.emvista.com/kb/Luc",
+          "value": "Luc"
+        }
+      },
+      {
+        "subject": {
+          "id": -161441142,
+          "uri": "http://www.emvista.com/kb/et",
+          "value": "et"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": -1,
+          "uri": "et",
+          "value": "et"
+        }
+      },
+      {
+        "subject": {
+          "id": 109673897,
+          "uri": "http://www.emvista.com/kb/109673897",
+          "value": "own-100"
+        },
+        "predicate": {
+          "id": -161441142,
+          "uri": "http://www.emvista.com/ontology/has_Theme",
+          "value": "Theme"
+        },
+        "object": {
+          "id": -161441142,
+          "uri": "http://www.emvista.com/kb/et",
+          "value": "et"
+        }
+      },
+      {
+        "subject": {
+          "id": -1867715669,
+          "uri": "http://www.emvista.com/ontology/-1867715669",
+          "value": "Thing/Concrete/Animate/Livingbeing/Animal"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": -1,
+          "uri": "Thing/Concrete/Animate/Livingbeing/Animal",
+          "value": "Thing/Concrete/Animate/Livingbeing/Animal"
+        }
+      },
+      {
+        "subject": {
+          "id": -1258572884,
+          "uri": "http://www.emvista.com/kb/-1258572884",
+          "value": "chèvre"
+        },
+        "predicate": {
+          "id": 100000009,
+          "uri": "http://www.emvista.com/ontology/has_type",
+          "value": "type"
+        },
+        "object": {
+          "id": -1867715669,
+          "uri": "http://www.emvista.com/ontology/-1867715669",
+          "value": "Thing/Concrete/Animate/Livingbeing/Animal"
+        }
+      },
+      {
+        "subject": {
+          "id": -1258572884,
+          "uri": "http://www.emvista.com/kb/-1258572884",
+          "value": "chèvre"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": -1258572884,
+          "uri": "chèvre",
+          "value": "chèvre"
+        }
+      },
+      {
+        "subject": {
+          "id": 2007383851,
+          "uri": "http://www.emvista.com/ontology/2007383851",
+          "value": "masculine"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": -1,
+          "uri": "masculine",
+          "value": "masculine"
+        }
+      },
+      {
+        "subject": {
+          "id": -50551219,
+          "uri": "http://www.emvista.com/kb/-50551219",
+          "value": "Il"
+        },
+        "predicate": {
+          "id": 100000010,
+          "uri": "http://www.emvista.com/ontology/has_type",
+          "value": "type"
+        },
+        "object": {
+          "id": 2007383851,
+          "uri": "http://www.emvista.com/ontology/2007383851",
+          "value": "masculine"
+        }
+      },
+      {
+        "subject": {
+          "id": -50551219,
+          "uri": "http://www.emvista.com/kb/-50551219",
+          "value": "Il"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": -50551219,
+          "uri": "Il",
+          "value": "Il"
+        }
+      },
+      {
+        "subject": {
+          "id": -50551219,
+          "uri": "http://www.emvista.com/kb/-50551219",
+          "value": "Il"
+        },
+        "predicate": {
+          "id": 100000011,
+          "uri": "http://www.emvista.com/ontology/has_state",
+          "value": "state"
+        },
+        "object": {
+          "id": 587978108,
+          "uri": "content",
+          "value": "content"
+        }
+      },
+      {
+        "subject": {
+          "id": -50551219,
+          "uri": "http://www.emvista.com/kb/-50551219",
+          "value": "Il"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": -50551219,
+          "uri": "Il",
+          "value": "Il"
+        }
+      },
+      {
+        "subject": {
+          "id": 587978108,
+          "uri": "http://www.emvista.com/kb/587978108",
+          "value": "content"
+        },
+        "predicate": {
+          "id": 100000012,
+          "uri": "http://www.emvista.com/ontology/has_polarity",
+          "value": "polarity"
+        },
+        "object": {
+          "id": 448690856,
+          "uri": "Pos",
+          "value": "Pos"
+        }
+      },
+      {
+        "subject": {
+          "id": 587978108,
+          "uri": "http://www.emvista.com/kb/587978108",
+          "value": "content"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": 587978108,
+          "uri": "content",
+          "value": "content"
+        }
+      },
+      {
+        "subject": {
+          "id": 1226595210,
+          "uri": "http://www.emvista.com/ontology/1226595210",
+          "value": "feminine"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": -1,
+          "uri": "feminine",
+          "value": "feminine"
+        }
+      },
+      {
+        "subject": {
+          "id": 128780227,
+          "uri": "http://www.emvista.com/kb/128780227",
+          "value": "Elle"
+        },
+        "predicate": {
+          "id": 100000013,
+          "uri": "http://www.emvista.com/ontology/has_type",
+          "value": "type"
+        },
+        "object": {
+          "id": 1226595210,
+          "uri": "http://www.emvista.com/ontology/1226595210",
+          "value": "feminine"
+        }
+      },
+      {
+        "subject": {
+          "id": 128780227,
+          "uri": "http://www.emvista.com/kb/128780227",
+          "value": "Elle"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": 128780227,
+          "uri": "Elle",
+          "value": "Elle"
+        }
+      },
+      {
+        "subject": {
+          "id": 128780227,
+          "uri": "http://www.emvista.com/kb/128780227",
+          "value": "Elle"
+        },
+        "predicate": {
+          "id": 100000014,
+          "uri": "http://www.emvista.com/ontology/has_state",
+          "value": "state"
+        },
+        "object": {
+          "id": 87544582,
+          "uri": "heureuse",
+          "value": "heureuse"
+        }
+      },
+      {
+        "subject": {
+          "id": 128780227,
+          "uri": "http://www.emvista.com/kb/128780227",
+          "value": "Elle"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": 128780227,
+          "uri": "Elle",
+          "value": "Elle"
+        }
+      },
+      {
+        "subject": {
+          "id": 87544582,
+          "uri": "http://www.emvista.com/kb/87544582",
+          "value": "heureuse"
+        },
+        "predicate": {
+          "id": 100000015,
+          "uri": "http://www.emvista.com/ontology/has_polarity",
+          "value": "polarity"
+        },
+        "object": {
+          "id": -1883676554,
+          "uri": "Pos",
+          "value": "Pos"
+        }
+      },
+      {
+        "subject": {
+          "id": 87544582,
+          "uri": "http://www.emvista.com/kb/87544582",
+          "value": "heureuse"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": 87544582,
+          "uri": "heureuse",
+          "value": "heureuse"
+        }
+      },
+      {
+        "subject": {
+          "id": -993680648,
+          "uri": "http://www.emvista.com/kb/-993680648",
+          "value": "mange"
+        },
+        "predicate": {
+          "id": 100000016,
+          "uri": "http://www.emvista.com/ontology/has_polarity",
+          "value": "polarity"
+        },
+        "object": {
+          "id": -963697070,
+          "uri": "Pos",
+          "value": "Pos"
+        }
+      },
+      {
+        "subject": {
+          "id": -993680648,
+          "uri": "http://www.emvista.com/kb/-993680648",
+          "value": "mange"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": -993680648,
+          "uri": "mange",
+          "value": "mange"
+        }
+      },
+      {
+        "subject": {
+          "id": -161441142,
+          "uri": "http://www.emvista.com/kb/-161441142",
+          "value": "addition"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+          "value": null
+        },
+        "object": {
+          "id": -1,
+          "uri": "http://www.emvista.com/ontology/Event",
+          "value": "Event"
+        }
+      },
+      {
+        "subject": {
+          "id": -818117435,
+          "uri": "http://www.emvista.com/kb/chien",
+          "value": "chien"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": -1,
+          "uri": "chien",
+          "value": "chien"
+        }
+      },
+      {
+        "subject": {
+          "id": -161441142,
+          "uri": "http://www.emvista.com/kb/-161441142",
+          "value": "addition"
+        },
+        "predicate": {
+          "id": -818117435,
+          "uri": "http://www.emvista.com/ontology/has_Addition",
+          "value": "Addition"
+        },
+        "object": {
+          "id": -818117435,
+          "uri": "http://www.emvista.com/kb/chien",
+          "value": "chien"
+        }
+      },
+      {
+        "subject": {
+          "id": -1258572884,
+          "uri": "http://www.emvista.com/kb/chèvre",
+          "value": "chèvre"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": -1,
+          "uri": "chèvre",
+          "value": "chèvre"
+        }
+      },
+      {
+        "subject": {
+          "id": -161441142,
+          "uri": "http://www.emvista.com/kb/-161441142",
+          "value": "addition"
+        },
+        "predicate": {
+          "id": -1258572884,
+          "uri": "http://www.emvista.com/ontology/has_Addition",
+          "value": "Addition"
+        },
+        "object": {
+          "id": -1258572884,
+          "uri": "http://www.emvista.com/kb/chèvre",
+          "value": "chèvre"
+        }
+      },
+      {
+        "subject": {
+          "id": -993680648,
+          "uri": "http://www.emvista.com/kb/-993680648",
+          "value": "mange"
+        },
+        "predicate": {
+          "id": 100000017,
+          "uri": "http://www.emvista.com/ontology/has_aspect",
+          "value": "aspect"
+        },
+        "object": {
+          "id": 856942713,
+          "uri": "atelic_process",
+          "value": "atelic_process"
+        }
+      },
+      {
+        "subject": {
+          "id": -993680648,
+          "uri": "http://www.emvista.com/kb/-993680648",
+          "value": "mange"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": -993680648,
+          "uri": "mange",
+          "value": "mange"
+        }
+      },
+      {
+        "subject": {
+          "id": -956299042,
+          "uri": "http://www.emvista.com/kb/-956299042",
+          "value": "est"
+        },
+        "predicate": {
+          "id": 100000018,
+          "uri": "http://www.emvista.com/ontology/has_polarity",
+          "value": "polarity"
+        },
+        "object": {
+          "id": 1593627585,
+          "uri": "Pos",
+          "value": "Pos"
+        }
+      },
+      {
+        "subject": {
+          "id": -956299042,
+          "uri": "http://www.emvista.com/kb/-956299042",
+          "value": "est"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": -956299042,
+          "uri": "est",
+          "value": "est"
+        }
+      },
+      {
+        "subject": {
+          "id": -956299042,
+          "uri": "http://www.emvista.com/kb/-956299042",
+          "value": "est"
+        },
+        "predicate": {
+          "id": 100000019,
+          "uri": "http://www.emvista.com/ontology/has_aspect",
+          "value": "aspect"
+        },
+        "object": {
+          "id": -1440977077,
+          "uri": "state",
+          "value": "state"
+        }
+      },
+      {
+        "subject": {
+          "id": -956299042,
+          "uri": "http://www.emvista.com/kb/-956299042",
+          "value": "est"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": -956299042,
+          "uri": "est",
+          "value": "est"
+        }
+      },
+      {
+        "subject": {
+          "id": 265160827,
+          "uri": "http://www.emvista.com/kb/265160827",
+          "value": "est"
+        },
+        "predicate": {
+          "id": 100000020,
+          "uri": "http://www.emvista.com/ontology/has_polarity",
+          "value": "polarity"
+        },
+        "object": {
+          "id": -416282909,
+          "uri": "Pos",
+          "value": "Pos"
+        }
+      },
+      {
+        "subject": {
+          "id": 265160827,
+          "uri": "http://www.emvista.com/kb/265160827",
+          "value": "est"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": 265160827,
+          "uri": "est",
+          "value": "est"
+        }
+      },
+      {
+        "subject": {
+          "id": 265160827,
+          "uri": "http://www.emvista.com/kb/265160827",
+          "value": "est"
+        },
+        "predicate": {
+          "id": 100000021,
+          "uri": "http://www.emvista.com/ontology/has_aspect",
+          "value": "aspect"
+        },
+        "object": {
+          "id": 1618323153,
+          "uri": "state",
+          "value": "state"
+        }
+      },
+      {
+        "subject": {
+          "id": 265160827,
+          "uri": "http://www.emvista.com/kb/265160827",
+          "value": "est"
+        },
+        "predicate": {
+          "id": -1,
+          "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+          "value": "label"
+        },
+        "object": {
+          "id": 265160827,
+          "uri": "est",
+          "value": "est"
+        }
+      }
+    ]
   }
 }

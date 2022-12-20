@@ -64,7 +64,6 @@ export class MeaningRepresentationService {
           },
         } as PssArgument)
       }
-      console.groupEnd();
     });
 
     // Groupe toute les propriétés qui ont la même valeur

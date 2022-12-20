@@ -1,78 +1,213 @@
 {
-  "message": "OK",
+  "message": null,
   "code": 0,
-  "startTime": 1648647657895,
-  "endTime": 1648647657895,
+  "language": "fr",
+  "startTime": 1670281152123,
+  "endTime": 1670281152140,
   "result": {
     "predicates": [
       {
         "id": 100000000,
-        "value": ["coreference"],
-        "source": "Je",
+        "value": ["cardinality"],
+        "source": "le",
         "refSource": "0-0",
         "negation": false,
+        "inferred": false,
         "arguments": [
-          { "id": 0, "role": "SameAs", "tags": [], "value": "Je", "refValue": "0-0" },
-          { "id": 27, "role": "SameAs", "tags": [], "value": "Luc", "refValue": "0-5" }
+          {
+            "id": -1419970236,
+            "role": "Measureexact",
+            "tags": [],
+            "value": "1",
+            "refValue": "0-0"
+          },
+          {
+            "id": 2030840252,
+            "role": "Theme",
+            "tags": [],
+            "value": "imposition",
+            "refValue": "0-1"
+          }
         ]
       },
       {
-        "id": 3,
-        "value": ["give-13.1", "transfer_mesg-37.1.1"],
-        "source": "transférer",
+        "id": 2030840252,
+        "value": ["enforce-63"],
+        "source": "imposition",
         "refSource": "0-1",
         "negation": false,
+        "inferred": false,
         "arguments": [
-          { "id": 16, "role": "Theme", "tags": [], "value": "document", "refValue": "0-3" },
-          { "id": 27, "role": "Recipient", "tags": ["nerd:Person"], "value": "Luc", "refValue": "0-5" },
-          { "id": 0, "role": "Agent", "tags": [], "value": "Je", "refValue": "0-0" }
+          {
+            "id": -1474098587,
+            "role": "Theme",
+            "tags": [],
+            "value": "CV",
+            "refValue": "0-3"
+          },
+          {
+            "id": 969732688,
+            "role": "Purpose",
+            "tags": [],
+            "value": "candidature",
+            "refValue": "0-6"
+          }
         ]
       },
       {
-        "id": 10000000,
-        "value": ["cardinality"],
-        "source": "un",
-        "refSource": "0-2",
+        "id": 100000001,
+        "value": ["type"],
+        "source": "imposition",
+        "refSource": "0-1",
         "negation": false,
+        "inferred": false,
         "arguments": [
-          { "id": 16, "role": "Theme", "tags": [], "value": "document", "refValue": "0-3" },
-          { "id": 100000001, "role": "Measureexact", "tags": [], "value": "1", "refValue": "0-2" }
+          {
+            "id": 2030840252,
+            "role": "Experiencer",
+            "tags": [],
+            "value": "imposition",
+            "refValue": "0-1"
+          },
+          {
+            "id": -2004565304,
+            "role": "Attribute",
+            "tags": [],
+            "value": "Thing/Abstract",
+            "refValue": "0-1"
+          }
         ]
       },
       {
         "id": 100000002,
-        "value": ["type"],
-        "source": "document",
-        "refSource": "0-3",
+        "value": ["cardinality"],
+        "source": "de le",
+        "refSource": "0-2",
         "negation": false,
+        "inferred": false,
         "arguments": [
-          { "id": 16, "role": "Experiencer", "tags": [], "value": "document", "refValue": "0-3" },
-          { "id": 100000003, "role": "Attribute", "tags": [], "value": "wsd:Thing>Abstract>Product>Archive", "refValue": "0-3" }
+          {
+            "id": 1153060358,
+            "role": "Measureexact",
+            "tags": [],
+            "value": "1",
+            "refValue": "0-2"
+          },
+          {
+            "id": -1474098587,
+            "role": "Theme",
+            "tags": [],
+            "value": "CV",
+            "refValue": "0-3"
+          }
         ]
+      },
+      {
+        "id": 100000003,
+        "value": ["cardinality"],
+        "source": "le",
+        "refSource": "0-5",
+        "negation": false,
+        "inferred": false,
+        "arguments": [
+          {
+            "id": 1275678817,
+            "role": "Measureexact",
+            "tags": [],
+            "value": "1",
+            "refValue": "0-5"
+          },
+          {
+            "id": 969732688,
+            "role": "Theme",
+            "tags": [],
+            "value": "candidature",
+            "refValue": "0-6"
+          }
+        ]
+      },
+      {
+        "id": 969732688,
+        "value": ["apply"],
+        "source": "candidature",
+        "refSource": "0-6",
+        "negation": false,
+        "inferred": false,
+        "arguments": []
       },
       {
         "id": 100000004,
         "value": ["type"],
-        "source": "Luc",
-        "refSource": "0-5",
+        "source": "candidature",
+        "refSource": "0-6",
         "negation": false,
+        "inferred": false,
         "arguments": [
-          { "id": 27, "role": "Experiencer", "tags": ["nerd:Person"], "value": "Luc", "refValue": "0-5" },
-          { "id": 100000005, "role": "Attribute", "tags": [], "value": "nerd:Person", "refValue": "0-5" }
+          {
+            "id": 969732688,
+            "role": "Experiencer",
+            "tags": [],
+            "value": "candidature",
+            "refValue": "0-6"
+          },
+          {
+            "id": 1435748279,
+            "role": "Attribute",
+            "tags": [],
+            "value": "Thing/Abstract",
+            "refValue": "0-6"
+          }
         ]
       },
       {
-        "id": 5,
-        "value": ["obtain-13.5.2"],
-        "source": "INFERRED",
+        "id": 100000005,
+        "value": ["aspect"],
+        "source": "imposition",
         "refSource": "0-1",
         "negation": false,
+        "inferred": false,
         "arguments": [
-          { "id": 0, "role": "Source", "tags": [], "value": "Je", "refValue": "0-0" },
-          { "id": 27, "role": "Agent", "tags": ["nerd:Person"], "value": "Luc", "refValue": "0-5" },
-          { "id": 16, "role": "Theme", "tags": [], "value": "document", "refValue": "0-3" }
+          {
+            "id": 2030840252,
+            "role": "Experiencer",
+            "tags": [],
+            "value": "imposition",
+            "refValue": "0-1"
+          },
+          {
+            "id": 2022403928,
+            "role": "Attribute",
+            "tags": [],
+            "value": "process",
+            "refValue": "0-1"
+          }
+        ]
+      },
+      {
+        "id": 100000006,
+        "value": ["aspect"],
+        "source": "candidature",
+        "refSource": "0-6",
+        "negation": false,
+        "inferred": false,
+        "arguments": [
+          {
+            "id": 969732688,
+            "role": "Experiencer",
+            "tags": [],
+            "value": "candidature",
+            "refValue": "0-6"
+          },
+          {
+            "id": 950457046,
+            "role": "Attribute",
+            "tags": [],
+            "value": "process",
+            "refValue": "0-6"
+          }
         ]
       }
-    ]
+    ],
+    "triples": null
   }
 }

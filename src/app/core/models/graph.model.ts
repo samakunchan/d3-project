@@ -19,9 +19,12 @@ export interface GraphNode {
 }
 
 export interface GraphNodeRdf {
-  uri: string;
-  value: string;
+  id: string;
+  type: string;
   dashed: boolean;
+  text: string[];
+  target: string;
+  value: string;
 }
 export interface GraphLink {
   source: number;
@@ -35,7 +38,7 @@ export interface GraphLink {
 export interface GraphLinkRdf{
   source: string;
   target: string;
-  typeT: string;
+  value: string;
 }
 export const types = [
   { type: 'agent' },

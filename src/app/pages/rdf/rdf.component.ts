@@ -28,7 +28,7 @@ export class RdfComponent implements OnInit, AfterViewInit {
   }
 
   ngAfterViewInit(): void {
-    this.d3service.initChart(this.chart.nativeElement, this.data);
+    this.d3service.initRdfChart(this.chart.nativeElement, this.data);
   }
 
 }
